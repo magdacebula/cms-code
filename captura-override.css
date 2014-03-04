@@ -53,3 +53,17 @@
 	float:right;
 	margin-top:20%;
 }
+
+/*lists*/
+
+ul.greenBullet {
+	list-style:none;
+	padding:0px;
+	text-indent:0;
+}
+
+ul.greenBullet li {
+	background:url(/content/dam/diasgrandiosos/icons/green-bullet.png) 0px 6px no-repeat;
+	padding-left:35px;
+	margin-bottom:35px;
+}
