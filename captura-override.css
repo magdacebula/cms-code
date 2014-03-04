@@ -3,11 +3,11 @@
 
 /*colors*/
 
-.blueCopy {
+.blue100 {
 	color:#1EAAF0;
 }
 
-.dkBlueCopy {
+.dkBlue {
 	color:#005082;
 }
 
@@ -38,3 +38,7 @@
 }
 
 
+/*column containers for full-width*/
+
+.oneThirdLeft {
+}
