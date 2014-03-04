@@ -40,5 +40,14 @@
 
 /*column containers for full-width*/
 
+.oneThirdRight {
+	max-width:480px; 
+	float:left;
+	margin-top:20%;
+}
+
 .oneThirdLeft {
+	max-width:480px; 
+	float:right;
+	margin-top:20%;
 }
