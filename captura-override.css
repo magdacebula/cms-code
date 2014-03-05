@@ -111,7 +111,7 @@ p.lineHeight150 {
 
 /*lists*/
 
-ul.greenBullet {
+ul.greenBullet, ul.blueBullet, ul.redBullet, ul.purpleBullet {
 	list-style:none;
 	padding:0px;
 	text-indent:0;
@@ -119,7 +119,28 @@ ul.greenBullet {
 }
 
 ul.greenBullet li {
-	background:url(/content/dam/diasgrandiosos/icons/green-bullet.png) 0px 6px no-repeat;
+	background:url(/content/dam/diasgrandiosos/icons/green-bullet.png) 0px 10px no-repeat;
+	padding-left:35px;
+	margin-bottom:35px;
+	line-height: 1.5em;
+}
+
+ul.blueBullet li {
+	background:url(/content/dam/diasgrandiosos/icons/blue-bullet.png) 0px 10px no-repeat;
+	padding-left:35px;
+	margin-bottom:35px;
+	line-height: 1.5em;
+}
+
+ul.redBullet li {
+	background:url(/content/dam/diasgrandiosos/icons/red-bullet.png) 0px 10px no-repeat;
+	padding-left:35px;
+	margin-bottom:35px;
+	line-height: 1.5em;
+}
+
+ul.purpleBullet li {
+	background:url(/content/dam/diasgrandiosos/icons/purple-bullet.png) 0px 10px no-repeat;
 	padding-left:35px;
 	margin-bottom:35px;
 	line-height: 1.5em;
