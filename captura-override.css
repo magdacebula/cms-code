@@ -39,6 +39,10 @@
 	text-align:center; 
 }
 
+p.lineHeight150 {
+		line-height: 1.5em;
+}
+
 
 /*column containers for full-width*/
 
@@ -54,16 +58,21 @@
 	margin-top:20%;
 }
 
+/*half-page tout hacks*/
+
 /*lists*/
 
 ul.greenBullet {
 	list-style:none;
 	padding:0px;
 	text-indent:0;
+	font-weight:normal;
 }
 
 ul.greenBullet li {
 	background:url(/content/dam/diasgrandiosos/icons/green-bullet.png) 0px 6px no-repeat;
 	padding-left:35px;
 	margin-bottom:35px;
+	line-height: 1.5em;
 }
+
