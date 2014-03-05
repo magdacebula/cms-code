@@ -73,7 +73,6 @@ p.lineHeight150 {
 	max-width:780px; 
 	padding-right:50px;
 	float:right;
-	margin-top:10%;
 }
 
 	/*if adjacent image goes to edge/requires padding:*/
@@ -81,21 +80,28 @@ p.lineHeight150 {
 	max-width:780px; 
 	padding-left:50px;
 	float:left;
-	margin-top:10%;
 }
 
 
 /*half-page tout hacks*/
 
 .circleContainer {
-	float:left;
-	text-align:center;
-	display:inline-block;
+	text-align: center;
+	float: left;
+	padding-bottom: 275px;
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	min-width: 50%;
+	width: 256px;
+	max-height: 344px;
+	background-size: contain;
+	margin-top: 10%;
 }
 
-.circleContainer.img {
+.circleContainer img {
 	display:block;
 	max-width:90%;
+	margin: 25px auto;
 }
 
 .capturaClear {
