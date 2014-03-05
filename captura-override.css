@@ -10,8 +10,11 @@
 .red100 {color:#B41E4B;}
 .dkRed {color:#881637;}
 
-.red100 {color:#B41E4B;}
-.dkRed {color:#881637;}
+.green100 {color:#BED22D;}
+.dkGreen {color:#9BAC42;}
+
+.purple100 {color:#7D3C9B;}
+.dkPurple {color:#67327A;}
 
 
 /*headers*/
@@ -23,12 +26,15 @@
 	font-size:2.2em;
 	font-family: 'News Gothic', 'Arial Narrow' , 'Helvetica Narrow',sans-serif;
 	text-transform: uppercase;
+	line-height:1.5em;
 }
 
 .capturaH3 {
 	font-size:1.6em;
 	font-family: 'News Gothic', 'Arial Narrow' , 'Helvetica Narrow',sans-serif;
 	text-transform: uppercase;
+	line-height:1.5em;
+
 }
 
 .whiteCenterHeader {
@@ -37,6 +43,8 @@
 	text-transform: uppercase;
 	color:#fff;
 	text-align:center; 
+	line-height:1.5em;
+
 }
 
 p.lineHeight150 {
@@ -46,19 +54,54 @@ p.lineHeight150 {
 
 /*column containers for full-width*/
 
+	/*if adjacent image doesn't go to edge:*/
 .oneThirdRight {
 	max-width:480px; 
 	float:left;
 	margin-top:20%;
 }
 
+	/*if adjacent image doesn't go to edge:*/
 .oneThirdLeft {
 	max-width:480px; 
 	float:right;
 	margin-top:20%;
 }
 
+	/*if adjacent image goes to edge/requires padding:*/
+.twoThirdLeft {
+	max-width:780px; 
+	padding-right:50px;
+	float:right;
+	margin-top:10%;
+}
+
+	/*if adjacent image goes to edge/requires padding:*/
+.twoThirdRight {
+	max-width:780px; 
+	padding-left:50px;
+	float:left;
+	margin-top:10%;
+}
+
+
 /*half-page tout hacks*/
+
+.circleContainer {
+	float:left;
+	text-align:center;
+	display:inline-block;
+}
+
+.circleContainer.img {
+	display:block;
+	max-width:90%;
+}
+
+.capturaClear {
+	clear:both;
+}
+	
 
 /*lists*/
 
