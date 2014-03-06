@@ -149,6 +149,14 @@ ul.purpleBullet li {
 	line-height: 1.5em;
 }
 
+/* 025 Lists */
+ul.purpleBullet25 li {
+	background:url(/content/dam/diasgrandiosos/icons/purple-bullet.png) 0px 10px no-repeat;
+	padding-left:35px;
+	margin-bottom:10px;
+	line-height: 1.5em;
+}
+
 /*27 Spice Up Cereal*/
 
 .starList {
