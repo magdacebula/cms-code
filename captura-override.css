@@ -49,6 +49,7 @@
 
 p.lineHeight150 {
 		line-height: 1.5em;
+		font-weight:normal;
 }
 
 
@@ -88,14 +89,17 @@ p.lineHeight150 {
 /*half-page tout hacks*/
 
 .circleContainer {
-	float:left;
 	text-align:center;
 	display:inline-block;
+	max-width:50%;
+	margin:0 auto;
+	float:left;
+	width:100%;
 }
 
-.circleContainer.img {
+.circleContainer img {
 	display:block;
-	max-width:90%;
+	margin: 25px auto;
 }
 
 .capturaClear {
@@ -119,3 +123,4 @@ ul.greenBullet li {
 	line-height: 1.5em;
 }
 
+hello here i am
