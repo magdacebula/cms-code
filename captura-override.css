@@ -157,6 +157,14 @@ ul.purpleBullet25 li {
 	line-height: 1.5em;
 }
 
+
+/* 14 Millenials */
+.halfPage14 {
+	background:#fff; 
+	width:100%;
+	padding:45px 10%;
+}
+
 /*27 Spice Up Cereal*/
 
 .starList {
@@ -165,6 +173,8 @@ padding-left:40px;
 color:#373737 !important;
 }
 
+
+/*Start of Media Queries*/
 
 @media screen and (max-width: 600px) {
 	.oneThirdRight {
@@ -179,6 +189,19 @@ color:#373737 !important;
 		margin-right:20px;
 		float:none;
 	}
+	
+	.twoThirdLeft {
+	max-width:780px; 
+	padding-right:50px;
+	float:right;
+  }
+
+  .twoThirdRight {
+	  max-width:780px; 
+	  padding-left:50px;
+	  float:left;
+  }
+
 }
 
 @media screen and (min-width: 601px) and (max-width: 1100px) {
@@ -193,4 +216,15 @@ color:#373737 !important;
 		margin-left:10%;
 		float:none;
 	}
+}
+
+@media screen and (min-width: 1170px) and (max-width: 1380px) {
+	
+	/* 014 Millenials */
+	.halfPage14 img:first-of-type {
+		width:80%;
+		height:auto;
+}
+
+	
 }
