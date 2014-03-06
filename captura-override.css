@@ -60,6 +60,7 @@ p.lineHeight150 {
 	max-width:480px; 
 	float:left;
 	margin-top:20%;
+	margin-right:20%;
 }
 
 	/*if adjacent image doesn't go to edge:*/
@@ -67,6 +68,7 @@ p.lineHeight150 {
 	max-width:480px; 
 	float:right;
 	margin-top:20%;
+	margin-left:20%;
 }
 
 	/*if adjacent image goes to edge/requires padding:*/
@@ -147,3 +149,40 @@ ul.purpleBullet li {
 	line-height: 1.5em;
 }
 
+/*27 Spice Up Cereal*/
+
+.starList {
+background:url(/content/dam/diasgrandiosos/icons/star-bullet.png) left 12px no-repeat; 
+padding-left:40px; 
+color:#373737 !important;
+}
+
+
+@media screen and (max-width: 600px) {
+	.oneThirdRight {
+		margin-top: 10%;
+		margin-right:20px;
+		float:none;
+	}
+	
+	.oneThirdLeft {
+		margin-top: 10%;
+		margin-left:0;
+		margin-right:20px;
+		float:none;
+	}
+}
+
+@media screen and (min-width: 601px) and (max-width:1100px) {
+	.oneThirdRight {
+		margin-top: 10%;
+		margin-right:10%;
+		float:none;
+	}
+	
+	.oneThirdLeft {
+		margin-top: 10%;
+		margin-left:10%;
+		float:none;
+	}
+}
