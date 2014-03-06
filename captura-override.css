@@ -160,7 +160,7 @@ ul.purpleBullet25 li {
 /*27 Spice Up Cereal*/
 
 .starList {
-background:url(/content/dam/diasgrandiosos/icons/star-bullet.png) left 12px no-repeat; 
+background:url(/content/dam/diasgrandiosos/icons/star-bullet.png) left 4px no-repeat; 
 padding-left:40px; 
 color:#373737 !important;
 }
@@ -181,15 +181,15 @@ color:#373737 !important;
 	}
 }
 
-@media screen and (min-width: 601px) and (max-width:1100px) {
+@media screen and (min-width: 601px) and (max-width: 1100px) {
 	.oneThirdRight {
-		margin-top: 10%;
+		margin-top: 5%;
 		margin-right:10%;
 		float:none;
 	}
 	
 	.oneThirdLeft {
-		margin-top: 10%;
+		margin-top: 5%;
 		margin-left:10%;
 		float:none;
 	}
