@@ -85,7 +85,7 @@ p.lineHeight150 {
 	margin-left: auto;
 	margin-right: auto;
 }
-.oneThirdPaddedNarrow { /* for tighter designs where adjacent image goes to full width--need to add padding*/
+.oneThirdPaddedNarrow { /* for tighter designs where adjacent image goes to full width--need to add padding only if you select colRight or Left*/
 	max-width:295px;
 	margin-left: auto;
 	margin-right: auto;
@@ -95,7 +95,7 @@ p.lineHeight150 {
 	margin-left: auto;
 	margin-right: auto; 
 }
-.oneThirdPaddedWide { /*for designs with a lot of white space where adjacent image image goes to full width--need to add padding*/
+.oneThirdPaddedWide { /*for designs with a lot of white space where adjacent image image goes to full width--need to add padding only if you select colRight or Left*/
 	max-width:430px; 
 	margin-left: auto;
 	margin-right: auto;
@@ -105,7 +105,7 @@ p.lineHeight150 {
 	margin-left: auto;
 	margin-right: auto;
 }
-.twoThirdPadded { /*use when adjacent image goes to full width--need to add padding*/
+.twoThirdPadded { /*use when adjacent image goes to full width--need to add padding only if you select colRight or Left*/
 	max-width:730px; 
 	margin-left: auto;
 	margin-right: auto;
