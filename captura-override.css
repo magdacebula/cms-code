@@ -26,7 +26,7 @@
 	font-family: 'News Gothic', 'Arial Narrow' , 'Helvetica Narrow',sans-serif;
 	text-transform: uppercase;
 	line-height:1.3em;
-	font-weight:normal;
+	font-weight:normal !important;
 }
 
 .capturaH2 {
@@ -61,41 +61,64 @@ p.lineHeight150 {
 
 /*column containers for full-width*/
 
-.bodyCopy .colRight {  
+.bodyCopy .colRight {  /*choose your side - OPTIONAL: if not added you element will center in it's collumn*/
 	float:left;
-	margin-top:20%;
 	margin-right:20%;
 }
 .bodyCopy .colLeft { 
 	float:right;
-	margin-top:20%;
 	margin-left:20%;
+}
+
+.bodyCopy .marginTop5 { /*choose your margin size*/
+ 	margin-top:5%;
+}
+
+.bodyCopy .marginTop10 {
+ 	margin-top:10%;
+}
+.bodyCopy .marginTop20 {
+ 	margin-top:20%;
 }
 .oneThirdFullNarrow { /* for tighter designs where adjacent image does not go full width*/
 	max-width:345px; 
+	margin-left: auto;
+	margin-right: auto;
 }
 .oneThirdPaddedNarrow { /* for tighter designs where adjacent image goes to full width--need to add padding*/
 	max-width:295px;
+	margin-left: auto;
+	margin-right: auto;
 }
 .oneThirdFullWide { /*for designs with a lot of white space where adjacent image does not go full width*/
-	max-width:480px; 
+	max-width:480px;
+	margin-left: auto;
+	margin-right: auto; 
 }
 .oneThirdPaddedWide { /*for designs with a lot of white space where adjacent image image goes to full width--need to add padding*/
 	max-width:430px; 
+	margin-left: auto;
+	margin-right: auto;
 }
-.twoThirdFull { /* use when adjacent image does not go full width*/
+.twoThirdFull { /* use when adjacent image does not go full width */
 	max-width:780px;
-	margin: 10% auto; 
+	margin-left: auto;
+	margin-right: auto;
 }
-.twoThirdPaddedLeft, .twoThirdPaddedRight { /*use when adjacent image goes to full width--need to add padding*/
+.twoThirdPadded { /*use when adjacent image goes to full width--need to add padding*/
 	max-width:730px; 
-	margin: 10% auto 0 auto;
+	margin-left: auto;
+	margin-right: auto;
 }
-.oneHalfFull { /* use when adjacent image does not go full width*/
+.oneHalfFull { /* use when adjacent image does not go full width STYLE UNFINISHED STILL-safe to edit-*/
 	max-width:585px;
+	margin-left: auto;
+	margin-right: auto;
 }
-.oneHalfPadded { /*use when adjacent image goes to full width--need to add padding*/
+.oneHalfPadded { /*use when adjacent image goes to full width--need to add padding STYLE UNFINISHED STILL-safe to edit--may need breakpoints*/
 	max-width:535px;
+	margin-left: auto;
+	margin-right: auto;
 }
 .bodyCopy .fixedColLeft { /*add to fixed width collumns after setting left/right overrides to 0--excluding 100%*/
 		padding-right: 50px;
@@ -112,21 +135,15 @@ p.lineHeight150 {
 }
 	
 @media screen and (min-width: 601px) and (max-width: 1170px) {
-	.bodyCopy .colRight, .bodyCopy .colLeft {
+	.bodyCopy .colRight, .bodyCopy .colLeft, .bodyCopy .marginTop10, .bodyCopy .marginTop20, .bodyCopy .marginTop5 {
 		margin-top: 5%;
 		margin-right:10%;
 		margin-left:10%;
 	}
-/*	.twoThirdPaddedLeft { 
-	margin-top: 5% !important;
-	}
-	.twoThirdPaddedRight { 
-	margin-top: 5% !important;
-	}*/
 }
 @media screen and (max-width: 600px) {
-	.bodyCopy .colRight, .bodyCopy .colLeft, .twoThirdPaddedLeft, .twoThirdPaddedRight {
-		margin-top: 10%;
+	.bodyCopy .colRight, .bodyCopy .colLeft, .bodyCopy .marginTop10, .bodyCopy .marginTop20, .bodyCopy .marginTop5  {
+		margin-top: 30px;
 		margin-right:20px;
 		margin-left:20px;
 		float:none;
@@ -139,23 +156,21 @@ p.lineHeight150 {
 	 padding-left:0px;
   }
   .bodyCopy .fixedColLeft, .bodyCopy .fixedColRight { 
-		margin: 0 20px;
+		margin-left:20px;
+		margin-right:20px;
 		padding:0px;
 	}
 }
 @media screen and (min-width: 601px) and (max-width: 1270px) {
 	.bodyCopy .fixedColLeft, .bodyCopy .fixedColRight { 
-		margin: 0 10%;
+		margin-left:10%;
+		margin-right:10%;
 		padding:0px;
 	}
-	.twoThirdPaddedLeft { 
-	margin: 5% 50px 0 10%;
+	.twoThirdPadded  { 
+	margin-right:50px;
+	margin-left:50px;
 	}
-	.twoThirdPaddedRight { 
-	margin: 5% 10% 0 50px;
-
-	}
-
 }
 /*lists */
 
