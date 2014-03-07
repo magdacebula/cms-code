@@ -112,15 +112,15 @@ p.lineHeight150 {
 }
 	
 
-/*lists*/
+/*lists */
 
-ul.greenBullet, ul.blueBullet, ul.redBullet, ul.purpleBullet {
+ul.greenBullet, ul.blueBullet, ul.redBullet, ul.purpleBullet, ul.greenBulletStd, ul.blueBulletStd, ul.redBulletStd, ul.purpleBulletStd {
 	list-style:none;
 	padding:0px;
 	text-indent:0;
 	font-weight:normal;
 }
-
+/*027 lists */
 ul.greenBullet li {
 	background:url(/content/dam/diasgrandiosos/icons/green-bullet.png) 0px 10px no-repeat;
 	padding-left:35px;
@@ -148,7 +148,31 @@ ul.purpleBullet li {
 	margin-bottom:35px;
 	line-height: 1.5em;
 }
-
+/* Std Lists */
+ul.greenBulletStd li {
+	background:url(/content/dam/diasgrandiosos/icons/green-bullet.png) 0px 10px no-repeat;
+	padding-left:35px;
+	margin-bottom:10px;
+	line-height: 1.5em;
+}
+ul.blueBulletStd li {
+	background:url(/content/dam/diasgrandiosos/icons/blue-bullet.png) 0px 10px no-repeat;
+	padding-left:35px;
+	margin-bottom:10px;
+	line-height: 1.5em;
+}
+ul.redBulletStd li {
+	background:url(/content/dam/diasgrandiosos/icons/red-bullet.png) 0px 10px no-repeat;
+	padding-left:35px;
+	margin-bottom:10px;
+	line-height: 1.5em;
+}
+ul.purpleBulletStd li {
+	background:url(/content/dam/diasgrandiosos/icons/purple-bullet.png) 0px 10px no-repeat;
+	padding-left:35px;
+	margin-bottom:10px;
+	line-height: 1.5em;
+}
 /* 025 Lists */
 ul.purpleBullet25 li {
 	background:url(/content/dam/diasgrandiosos/icons/purple-bullet.png) 0px 10px no-repeat;
@@ -245,8 +269,10 @@ color:#373737 !important;
 		width:90% ;
 	}
 	
+
 	.halfPage14 {
 		width:95%;
 		padding:35px 8%;
 	}	
+
 }
