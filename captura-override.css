@@ -240,6 +240,14 @@ color:#373737 !important;
 	  float:left;
   }
   
+  	.halfPage14 {
+		padding:30px 8%;
+	}	
+	
+	.halfPage14 p{
+		margin-bottom: 25px;
+	}
+  
 }
 
 @media screen and (min-width: 601px) and (max-width: 1100px) {
@@ -260,19 +268,25 @@ color:#373737 !important;
 	.starList {
 		margin-left:0% !important;
 	}
+
 }
 
 @media screen and (min-width: 1170px) and (max-width: 1400px) {
 	
 	/* 014 Millenials */
 	.halfPage14 img{
-		width:90% ;
+		width:85% ;
 	}
 	
 
 	.halfPage14 {
-		width:95%;
-		padding:35px 8%;
+		width:90%;
+		padding:30px 8%;
+		margin: 0 auto;
 	}	
+	
+	.halfPage14 p{
+		margin-bottom: 30px;
+	}
 
 }
