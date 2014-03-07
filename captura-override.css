@@ -22,19 +22,27 @@
 .capturaH1 {
 }
 
-.capturaH2 {
-	font-size:2.2em;
+.capturaH2, .capturaH3, .capturaH4, .capturaH5 {
 	font-family: 'News Gothic', 'Arial Narrow' , 'Helvetica Narrow',sans-serif;
 	text-transform: uppercase;
-	line-height:1.5em;
+	line-height:1.3em;
+	font-weight:normal;
+}
+
+.capturaH2 {
+	font-size:2.2em;
 }
 
 .capturaH3 {
 	font-size:1.6em;
-	font-family: 'News Gothic', 'Arial Narrow' , 'Helvetica Narrow',sans-serif;
-	text-transform: uppercase;
-	line-height:1.5em;
+}
 
+.capturaH4, .capturaH5 {
+	font-size:1.2em;
+}
+
+.capturaH5 {
+	text-transform:none !important;
 }
 
 .whiteCenterHeader {
@@ -44,77 +52,114 @@
 	color:#fff;
 	text-align:center; 
 	line-height:1.5em;
-
+	font-weight:normal;
 }
 
 p.lineHeight150 {
 		line-height: 1.5em;
-		font-weight:normal;
 }
-
 
 /*column containers for full-width*/
 
-	/*if adjacent image doesn't go to edge:*/
-.oneThirdRight {
-	max-width:480px; 
+.bodyCopy .colRight {  
 	float:left;
 	margin-top:20%;
 	margin-right:20%;
 }
-
-	/*if adjacent image doesn't go to edge:*/
-.oneThirdLeft {
-	max-width:480px; 
+.bodyCopy .colLeft { 
 	float:right;
 	margin-top:20%;
 	margin-left:20%;
 }
-
-	/*if adjacent image goes to edge requires padding:*/
-.twoThirdLeft {
-	max-width:780px; 
+.oneThirdFullNarrow { /* for tighter designs where adjacent image does not go full width*/
+	max-width:345px; 
+}
+.oneThirdPaddedNarrow { /* for tighter designs where adjacent image goes to full width--need to add padding*/
+	max-width:295px;
+}
+.oneThirdFullWide { /*for designs with a lot of white space where adjacent image does not go full width*/
+	max-width:480px; 
+}
+.oneThirdPaddedWide { /*for designs with a lot of white space where adjacent image image goes to full width--need to add padding*/
+	max-width:430px; 
+}
+.twoThirdFull { /* use when adjacent image does not go full width*/
+	max-width:780px;
+	margin: 10% auto; 
+}
+.twoThirdPaddedLeft, .twoThirdPaddedRight { /*use when adjacent image goes to full width--need to add padding*/
+	max-width:730px; 
+	margin: 10% auto 0 auto;
+}
+.oneHalfFull { /* use when adjacent image does not go full width*/
+	max-width:585px;
+}
+.oneHalfPadded { /*use when adjacent image goes to full width--need to add padding*/
+	max-width:535px;
+}
+.bodyCopy .fixedColLeft { /*add to fixed width collumns after setting left/right overrides to 0--excluding 100%*/
+		padding-right: 50px;
+}
+.bodyCopy .fixedColRight { /*add to fixed width collumns after setting left/right overrides to 0--excluding 100%*/
+		padding-left: 50px;
+}
+/*if adjacent image goes to edge add this padding*/
+.colLeftPadding {
 	padding-right:50px;
-	float:right;
 }
-
-	/*if adjacent image goes to edge/requires padding:*/
-.twoThirdRight {
-	max-width:780px; 
+.colRightPadding {  
 	padding-left:50px;
-	float:left;
-}
-
-
-/*half-page tout workarounds*/
-
-.circleContainer {
-	text-align: center;
-	float: left;
-	padding-bottom: 275px;
-	background-repeat: no-repeat;
-	background-position: bottom center;
-	min-width: 50%;
-	width: 256px;
-	max-height: 344px;
-	background-size: contain;
-	margin-top: 10%;
-}
-
-.circleContainer img {
-	display:block;
-	max-width:90%;
-	margin: 25px auto;
-}
-
-.capturaClear {
-	clear:both;
 }
 	
+@media screen and (min-width: 601px) and (max-width: 1170px) {
+	.bodyCopy .colRight, .bodyCopy .colLeft {
+		margin-top: 5%;
+		margin-right:10%;
+		margin-left:10%;
+	}
+/*	.twoThirdPaddedLeft { 
+	margin-top: 5% !important;
+	}
+	.twoThirdPaddedRight { 
+	margin-top: 5% !important;
+	}*/
+}
+@media screen and (max-width: 600px) {
+	.bodyCopy .colRight, .bodyCopy .colLeft, .twoThirdPaddedLeft, .twoThirdPaddedRight {
+		margin-top: 10%;
+		margin-right:20px;
+		margin-left:20px;
+		float:none;
+		max-width:100% !important;
+	}
+	.colLeftPadding {
+	padding-right:0px;
+  }
+  .colRightPadding {  
+	 padding-left:0px;
+  }
+  .bodyCopy .fixedColLeft, .bodyCopy .fixedColRight { 
+		margin: 0 50px;
+		padding:0px;
+	}
+}
+@media screen and (min-width: 601px) and (max-width: 1270px) {
+	.bodyCopy .fixedColLeft, .bodyCopy .fixedColRight { 
+		margin: 0 10%;
+		padding:0px;
+	}
+	.twoThirdPaddedLeft { 
+	margin: 5% 50px 0 10%;
+	}
+	.twoThirdPaddedRight { 
+	margin: 5% 10% 0 50px;
 
+	}
+
+}
 /*lists */
 
-ul.greenBullet, ul.blueBullet, ul.redBullet, ul.purpleBullet, ul.greenBulletStd, ul.blueBulletStd, ul.redBulletStd, ul.purpleBulletStd {
+ul.greenBullet, ul.blueBullet, ul.redBullet, ul.purpleBullet, ul.greenBulletStd, ul.blueBulletStd, ul.redBulletStd, ul.purpleBulletStd, ul.greenBulletMed {
 	list-style:none;
 	padding:0px;
 	text-indent:0;
@@ -188,18 +233,15 @@ ul.purpleBullet25 li {
 	line-height: 1.5em;
 }
 
-
 /* 14 Millenials */
 .halfPage14 {
 	background:#fff; 
 	width:100%;
 	padding:40px 10%;
 }
-
 .halfPage14 p {
 	margin-bottom: 40px;
 }
-
 .halfPage14 img {
 	width:100%;
 	height:auto;
@@ -208,10 +250,29 @@ ul.purpleBullet25 li {
 	max-width: 437px;
 }
 
-
+/*15 mom eating healthy*/
+.circleContainer {
+	text-align: center;
+	float: left;
+	padding-bottom: 280px;
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	min-width: 50%;
+	max-width: 256px;
+	max-height: 344px;
+	background-size: contain;
+	margin-top: 10%;
+}
+.circleContainer img {
+	display:block;
+	max-width:90%;
+	margin: 10% auto 0;
+}
+.capturaClear {
+	clear:both;
+}
 
 /*27 Spice Up Cereal*/
-
 .starList {
 background:url(/content/dam/diasgrandiosos/icons/star-bullet.png) left 4px no-repeat; 
 padding-left:40px; 
@@ -219,82 +280,41 @@ color:#373737 !important;
 }
 
 
-/*Start of Media Queries*/
+/*Start of Media Queries For specific pages*/
 
 @media screen and (max-width: 600px) {
-	.oneThirdRight {
-		margin-top: 10%;
-		margin-right:20px;
-		margin-left:20px;
-		float:none;
-	}
-	
-	.oneThirdLeft {
-		margin-top: 10%;
-		margin-left:20px;
-		margin-right:20px;
-		float:none;
-	}
-	
-	.twoThirdLeft {
-	max-width:780px; 
-	padding-right:50px;
-	float:right;
-  }
-
-  .twoThirdRight {
-	  max-width:780px; 
-	  padding-left:50px;
-	  float:left;
-  }
-  
   .starList {
 	  padding-right: 30px;
   }
-  
   	.halfPage14 {
 		padding:30px 8%;
 	}	
-	
 	.halfPage14 p{
 		margin-bottom: 25px;
 	}
-  
-}
-
-@media screen and (min-width: 601px) and (max-width: 1100px) {
-	.oneThirdRight {
-		margin-top: 5%;
-		margin-right:10%;
-		margin-left:10%;
-		float:none;
+	.circleContainer {
+		text-align: center;
+		float: none;
+		padding-bottom: 285px;
+		background-repeat: no-repeat;
+		background-position: bottom center;
+		min-width: 50%;
+		max-width: 300px;
+		max-height: none;
+		background-size: contain;
+		margin: 10% auto 0;
 	}
-	
-	.oneThirdLeft {
-		margin-top: 5%;
-		margin-left:10%;
-		margin-right:10%;
-		float:none;
-	}
-	
 }
-
 @media screen and (min-width: 1170px) and (max-width: 1400px) {
-	
-	/* 014 Millenials */
 	.halfPage14 img{
 		width:85% ;
 	}
-	
-
 	.halfPage14 {
 		width:90%;
 		padding:30px 8%;
 		margin: 0 auto;
 	}	
-	
 	.halfPage14 p{
 		margin-bottom: 30px;
 	}
-
 }
