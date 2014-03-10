@@ -169,7 +169,7 @@ p.lineHeight180 {
 
 .quote p {
 		text-align:left !important;
-		padding:40px;
+		padding:40px 40px 40px 0;
 }
 
 .quote-name {
