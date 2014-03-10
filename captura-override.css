@@ -225,7 +225,12 @@ p.lineHeight180 {
 	margin-left:50px;
 	}
 }
-
+@media screen and (min-width: 1440px) and (max-width: 1269px) {
+	.oneThirdFullWide, .oneThirdPaddedWide { 
+	margin-right:50px !important;
+	margin-left:50px;
+	}
+}
 /*lists */
 
 ul.greenBullet, ul.blueBullet, ul.redBullet, ul.purpleBullet, ul.greenBulletStd, ul.blueBulletStd, ul.redBulletStd, ul.purpleBulletStd, ul.greenBulletMed {
