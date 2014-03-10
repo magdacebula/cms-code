@@ -25,6 +25,7 @@
 .size140 {font-size:1.4em;}
 .size160 {font-size:1.6em;}
 .size180 {font-size:1.8em;}
+.size200 {font-size:2em;}
 .size240 {font-size:2.4em;}
 
 
@@ -169,7 +170,13 @@ p.lineHeight180 {
 
 .quote p {
 		text-align:left !important;
+<<<<<<< HEAD
 		padding:40px 40px 0 40px;
+=======
+		padding-left: 40px;
+		padding-top: 40px;
+		padding-bottom: 30px;
+>>>>>>> FETCH_HEAD
 }
 
 .quote-name {
@@ -181,7 +188,7 @@ p.lineHeight180 {
 
 	
 @media screen and (min-width: 601px) and (max-width: 1170px) {
-	.bodyCopy .colRight, .bodyCopy .colLeft, .bodyCopy .marginTop10, .bodyCopy .marginTop20, .bodyCopy .marginTop5 {
+	.bodyCopy .colRight, .bodyCopy .colLeft, .bodyCopy .marginTop10, .bodyCopy .marginTop5, .bodyCopy .marginTop20 {
 		margin-top: 5%;
 		margin-right:10%;
 		margin-left:10%;
@@ -214,11 +221,18 @@ p.lineHeight180 {
 		margin-right:10%;
 		padding:0px;
 	}
-	.twoThirdPadded  { 
+}
+@media screen and (min-width: 1171px) and (max-width: 1270px) {
+	.bodyCopy .marginTop10, .bodyCopy .marginTop20, .bodyCopy .marginTop5 { 
 	margin-right:50px;
 	margin-left:50px;
 	}
-
+}
+@media screen and (min-width: 1440px) and (max-width: 1269px) {
+	.oneThirdFullWide, .oneThirdPaddedWide { 
+	margin-right:50px !important;
+	margin-left:50px;
+	}
 }
 /*lists */
 
@@ -379,5 +393,11 @@ color:#373737 !important;
 	}	
 	.halfPage14 p{
 		margin-bottom: 30px;
+	}
+}
+
+@media screen and (min-width: 601px) and (max-width: 1290px) {
+	.boxerQuote {
+		font-size:1.2em !important;
 	}
 }
