@@ -170,13 +170,9 @@ p.lineHeight180 {
 
 .quote p {
 		text-align:left !important;
-<<<<<<< HEAD
-		padding:40px 40px 0 40px;
-=======
 		padding-left: 40px;
 		padding-top: 40px;
 		padding-bottom: 30px;
->>>>>>> FETCH_HEAD
 }
 
 .quote-name {
