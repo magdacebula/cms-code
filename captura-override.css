@@ -392,3 +392,9 @@ color:#373737 !important;
 		margin-bottom: 30px;
 	}
 }
+
+@media screen and (min-width: 601px) and (max-width: 1290px) {
+	.boxerQuote {
+		font-size:1.2em !important;
+	}
+}
