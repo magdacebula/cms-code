@@ -24,6 +24,10 @@
 .size120 {font-size:1.2em;}
 .size140 {font-size:1.4em;}
 
+/*font family*/
+
+.fontBreeReg { font-family: 'bree_rgregular';}
+.fontBreeLight  { font-family: "Bree Light";}
 
 /*headers*/
 
@@ -149,7 +153,7 @@ p.lineHeight180 {
 .colRightPadding {  
 	padding-left:50px;
 }
-
+/*to be used for all block quotes not flattened in an image*/
 .quote {
 		background: url(/content/dam/diasgrandiosos/global/quotation-marks/top_quote.png) top left no-repeat,
 		url(/content/dam/diasgrandiosos/global/quotation-marks/bottom_quote.png) bottom right no-repeat;
@@ -157,8 +161,7 @@ p.lineHeight180 {
 
 .quote p {
 		text-align:left !important;
-		padding-left: 40px;
-		padding-right: 40px;
+		padding:40px;
 		font-family: 'bree_rgregular';
 }
 
