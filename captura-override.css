@@ -23,11 +23,19 @@
 
 .size120 {font-size:1.2em;}
 .size140 {font-size:1.4em;}
+.size160 {font-size:1.6em;}
+.size180 {font-size:1.8em;}
+.size240 {font-size:2.4em;}
+
 
 /*font family*/
 
 .fontBreeReg { font-family: 'bree_rgregular';}
 .fontBreeLight  { font-family: "Bree Light";}
+
+/*alignment*/
+
+.centered {text-align:center;}
 
 /*headers*/
 
@@ -162,7 +170,6 @@ p.lineHeight180 {
 .quote p {
 		text-align:left !important;
 		padding:40px;
-		font-family: 'bree_rgregular';
 }
 
 .quote-name {
