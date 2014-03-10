@@ -169,14 +169,13 @@ p.lineHeight180 {
 
 .quote p {
 		text-align:left !important;
-		padding:40px 40px 40px 0;
+		padding:40px 40px 0 40px;
 }
 
 .quote-name {
 		display:block!important;
 		color: #5e5e5e;
-		font-size:.6em;
-		margin-top: 10px;
+		margin: 20px 0 0 40px;
 		clear:both;
 }
 
