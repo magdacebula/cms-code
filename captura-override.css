@@ -22,6 +22,7 @@
 /*font size*/
 
 .size120 {font-size:1.2em;}
+.size140 {font-size:1.4em;}
 
 
 /*headers*/
@@ -64,6 +65,10 @@
 
 p.lineHeight150 {
 		line-height: 1.5em;
+}
+
+p.lineHeight180 {
+		line-height: 1.8em;
 }
 
 .lowerCase {
@@ -131,10 +136,10 @@ p.lineHeight150 {
 	margin-left: auto;
 	margin-right: auto;
 }
-.bodyCopy .fixedColLeft { /*add to fixed width collumns after setting left/right overrides to 0--excluding 100%*/
+.bodyCopy .fixedColLeft { /*add to fixed width columns after setting left/right overrides to 0--excluding 100%*/
 		padding-right: 50px;
 }
-.bodyCopy .fixedColRight { /*add to fixed width collumns after setting left/right overrides to 0--excluding 100%*/
+.bodyCopy .fixedColRight { /*add to fixed width columns after setting left/right overrides to 0--excluding 100%*/
 		padding-left: 50px;
 }
 /*if adjacent image goes to edge add this padding*/
@@ -150,7 +155,12 @@ p.lineHeight150 {
 		url(/content/dam/diasgrandiosos/global/quotation-marks/bottom_quote.png) bottom right no-repeat;
 }
 
-.quote p {text-align:left !important;}
+.quote p {
+		text-align:left !important;
+		padding-left: 40px;
+		padding-right: 40px;
+		font-family: 'bree_rgregular';
+}
 
 .quote-name {
 		display:block!important;
