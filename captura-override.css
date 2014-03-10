@@ -225,10 +225,10 @@ p.lineHeight180 {
 	margin-left:50px;
 	}
 }
-@media screen and (min-width: 1440px) and (max-width: 1269px) {
-	.oneThirdFullWide, .oneThirdPaddedWide { 
-	padding-right:50px !important;
-	padding-left:50px;
+@media screen and (min-width: 1269px) and (max-width: 1440px) {
+	.oneThirdFullWide,  { 
+	margin-right:50px;
+	margin-left:50px;
 	}
 }
 /*lists */
