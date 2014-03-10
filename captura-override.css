@@ -185,7 +185,7 @@ p.lineHeight180 {
 
 	
 @media screen and (min-width: 601px) and (max-width: 1170px) {
-	.bodyCopy .colRight, .bodyCopy .colLeft, .bodyCopy .marginTop10, .bodyCopy .marginTop20, .bodyCopy .marginTop5 {
+	.bodyCopy .colRight, .bodyCopy .colLeft, .bodyCopy .marginTop10, .bodyCopy .marginTop5, .bodyCopy .marginTop20 {
 		margin-top: 5%;
 		margin-right:10%;
 		margin-left:10%;
@@ -218,12 +218,14 @@ p.lineHeight180 {
 		margin-right:10%;
 		padding:0px;
 	}
-	.twoThirdPadded  { 
+}
+@media screen and (min-width: 1171px) and (max-width: 1270px) {
+	.bodyCopy .marginTop10, .bodyCopy .marginTop20, .bodyCopy .marginTop5 { 
 	margin-right:50px;
 	margin-left:50px;
 	}
-
 }
+
 /*lists */
 
 ul.greenBullet, ul.blueBullet, ul.redBullet, ul.purpleBullet, ul.greenBulletStd, ul.blueBulletStd, ul.redBulletStd, ul.purpleBulletStd, ul.greenBulletMed {
