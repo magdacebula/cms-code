@@ -344,6 +344,20 @@ ul.purpleBulletStd li {
 	margin-bottom:10px;
 	line-height: 1.5em;
 }
+
+/* 003 Lists */
+
+ol.whiteNumber {
+	color:#fff;
+	font-weight:normal;
+	font-size:.8em;	
+}
+
+ol.whiteNumber li{
+	margin-bottom:10px;
+	line-height: 1.5em;
+}
+
 /* 025 Lists */
 ul.purpleBullet25 li {
 	background:url(/content/dam/diasgrandiosos/icons/purple-bullet.png) 0px 10px no-repeat;
