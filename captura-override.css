@@ -45,15 +45,16 @@
 
 /*headers*/
 
-.capturaH1 {
-	font-size:2.4em;
-}
 
 .capturaH1, .capturaH2, .capturaH3, .capturaH4, .capturaH5 {
 	font-family: 'News Gothic', 'Arial Narrow' , 'Helvetica Narrow',sans-serif;
 	text-transform: uppercase;
 	line-height:1.3em;
 	font-weight:normal !important;
+}
+
+.capturaH1 {
+	font-size:2.4em;
 }
 
 .capturaH2 {
@@ -120,6 +121,19 @@ p.lineHeight180 {
 .bodyCopy .marginTop20 {
  	margin-top:20%;
 }
+
+.bodyCopy .marginBtm5 {
+	margin-bottom:5%;
+}
+
+.bodyCopy .marginBtm10 {
+	margin-bottom:10%;
+}
+
+.bodyCopy .marginBtm20 {
+	margin-bottom:20%;
+}
+
 .oneThirdFullNarrow { /* for tighter designs where adjacent image does not go full width*/
 	max-width:345px; 
 	margin-left: auto;
