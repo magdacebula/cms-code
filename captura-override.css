@@ -271,6 +271,14 @@ p.lineHeight180 {
 		margin-right:10%;
 		padding:0px;
 	}
+	
+	.no-padding {
+		padding: 0 5% !important;
+	}
+	
+	.no-margin {
+		margin: 0 !important;
+	}
 }
 @media screen and (min-width: 1171px) and (max-width: 1270px) {
 	.bodyCopy .marginTop10, .bodyCopy .marginTop20, .bodyCopy .marginTop5 { 
