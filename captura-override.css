@@ -3,22 +3,22 @@
 
 /*colors*/
 
-.white {color:#FFFFFF;}
-.dkGrey {color:#5e5e5e;}
+.white {color:#FFFFFF !important;}
+.dkGrey {color:#5e5e5e !important;}
 
-.blue100 {color:#1EAAF0;}
-.blue80 {color:#4BBBF3;}
-.dkBlue {color:#005082;!important;}
-.ltBlue {color:#0aacf1;}
+.blue100 {color:#1EAAF0 !important;}
+.blue80 {color:#4BBBF3 !important;}
+.dkBlue {color:#005082 !important;}
+.ltBlue {color:#0aacf1 !important;}
 
-.red100 {color:#B41E4B;}
-.dkRed {color:#881637;}
+.red100 {color:#B41E4B !important;}
+.dkRed {color:#881637 !important;}
 
-.green100 {color:#BED22D;}
-.dkGreen {color:#9BAC42;}
+.green100 {color:#BED22D !important;}
+.dkGreen {color:#9BAC42 !important;}
 
-.purple100 {color:#7D3C9B;}
-.dkPurple {color:#67327A;}
+.purple100 {color:#7D3C9B !important;}
+.dkPurple {color:#67327A !important;}
 
 
 /*font size*/
