@@ -256,6 +256,14 @@ p.lineHeight180 {
 		margin: 0 !important;
 		padding: 5% !important;
 	}
+	
+	.header-p-no-padding {
+		min-width: 100% !important;
+		max-width: 100% !important;
+		float: left !important;
+		margin: 0 !important;
+		padding: 0 !important;
+	}
 }
 @media screen and (min-width: 601px) and (max-width: 1270px) {
 	.bodyCopy .fixedColLeft, .bodyCopy .fixedColRight { 
