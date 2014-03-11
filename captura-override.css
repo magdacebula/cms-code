@@ -194,17 +194,28 @@ p.lineHeight180 {
 }
 
 .quote p {
-		text-align:left !important;
-		padding-left: 40px;
-		padding-top: 40px;
-		padding-bottom: 30px;
+	text-align:left !important;
+	padding-left: 40px;
+	padding-top: 40px;
+	padding-bottom: 30px;
 }
 
 .quote-name {
-		display:block!important;
-		color: #5e5e5e;
-		margin: 20px 0 0 40px;
-		clear:both;
+	display:block!important;
+	color: #5e5e5e;
+	margin: 20px 0 0 40px;
+	clear:both;
+}
+
+.header-p {
+	display: block; 
+	float: left; 
+	margin: 10% 3% 10% 0; 
+	min-height: 100px; 
+	padding: 0; 
+	position: relative;
+	text-align: left;
+	max-width: 42%;
 }
 
 	
@@ -234,7 +245,17 @@ p.lineHeight180 {
 		margin-right:20px;
 		padding:0px;
 	}
-	.quote p {padding:30px 0;}
+	.quote p {
+		padding:30px 0;
+	}
+
+	.header-p {
+		min-width: 100% !important;
+		max-width: 100% !important;
+		float: left !important;
+		margin: 0 !important;
+		padding: 5% !important;
+	}
 }
 @media screen and (min-width: 601px) and (max-width: 1270px) {
 	.bodyCopy .fixedColLeft, .bodyCopy .fixedColRight { 
