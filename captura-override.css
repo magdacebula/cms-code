@@ -82,16 +82,17 @@
 	font-weight:normal;
 }
 
+
+.lineHeight75 {
+		line-height: .75em;
+}
+
 p.lineHeight150 {
 		line-height: 1.5em;
 }
 
 p.lineHeight180 {
 		line-height: 1.8em;
-}
-
-.lineHeight240 {
-		line-height: .75em;
 }
 
 .lowerCase {
