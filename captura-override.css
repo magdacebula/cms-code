@@ -370,6 +370,7 @@ ol.whiteNumber {
 }
 
 ol.whiteNumber li{
+	color:#fff;
 	margin-bottom:10px;
 	line-height: 1.5em;
 }
