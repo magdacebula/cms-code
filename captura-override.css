@@ -262,7 +262,7 @@ p.lineHeight180 {
 	}
 	
 	.no-margin {
-		margin: 0 !important;
+		margin: 0 5% !important;
 	}
 }
 @media screen and (min-width: 601px) and (max-width: 1270px) {
