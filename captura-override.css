@@ -88,6 +88,9 @@
 }
 
 
+/*line heights*/
+
+
 .lineHeight75 {
 		line-height: .75em;
 }
@@ -104,6 +107,7 @@ p.lineHeight180 {
 	text-transform:none !important;
 }
 
+/*full width inside a container*/
 
 div.section_fullCaptura {
 margin: 0px auto;
