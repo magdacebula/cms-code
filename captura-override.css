@@ -395,7 +395,7 @@ ul.purpleBulletStd li {
 	line-height: 1.5em;
 }
 
-/* 003 Lists */
+/* 03 Lists */
 
 ol.whiteNumber {
 	color:#fff;
@@ -407,6 +407,13 @@ ol.whiteNumber li{
 	color:#fff;
 	margin-bottom:10px;
 	line-height: 1.5em;
+}
+
+
+/* 19 Lists */
+
+.article-tip .article-tip-content li {
+	padding:0 !important;
 }
 
 /* 025 Lists */
