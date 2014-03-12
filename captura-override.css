@@ -372,7 +372,7 @@ ul.purpleBullet li {
 /* Std Lists */
 ul.greenBulletStd li {
 	background:url(/content/dam/diasgrandiosos/icons/green-bullet.png) 0px 10px no-repeat;
-	padding-left:35px;
+	padding-left:35px !important;
 	margin-bottom:10px;
 	line-height: 1.5em;
 }
