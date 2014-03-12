@@ -458,6 +458,23 @@ h6.titleCompliments {
 	clear:both;
 }
 
+/*21 */
+
+.left-block-quote {
+	float:left;
+	width:50%;
+}
+
+.left-block-quote p {
+	font-size: 2.4em;
+	text-align:left;
+}
+
+.right-copy-block {
+	float:left;
+	max-width:50%;
+}
+
 /*27 Spice Up Cereal*/
 .starList {
 background:url(/content/dam/diasgrandiosos/icons/star-bullet.png) left 4px no-repeat; 
@@ -493,6 +510,22 @@ color:#373737 !important;
 	h6.titleCompliments {
 		font-size:1.3em !important;
 	}
+	
+	.left-block-quote {
+		float:left;
+		width:100% !important;
+	}
+
+	.left-block-quote p {
+		font-size: 2.4em;
+		text-align:left;
+	}
+
+	.right-copy-block {
+		float:left;
+		width:100% !important;
+	}
+	
 }
 @media screen and (min-width: 1170px) and (max-width: 1400px) {
 	.halfPage14 {
