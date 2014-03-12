@@ -46,7 +46,7 @@
 /*headers*/
 
 
-.capturaH1, .capturaH2, .capturaH3, .capturaH4, .capturaH5 {
+.capturaH1, .capturaH2, .capturaH3, .capturaH4, .capturaH5, .bodyCopy h6 {
 	font-family: 'News Gothic', 'Arial Narrow' , 'Helvetica Narrow',sans-serif;
 	text-transform: uppercase;
 	line-height:1.3em;
@@ -71,6 +71,10 @@
 
 .capturaH5 {
 	text-transform:none !important;
+}
+
+.bodyCopy h6. {
+	font-size:3.3em;
 }
 
 .whiteCenterHeader {
@@ -393,6 +397,14 @@ ul.purpleBullet25 li {
 	line-height: 1.5em;
 }
 
+/*09 Compliments*/
+
+h6.titleCompliments {
+	text-align:center;
+	color:#fff;
+	text-shadow: 0 3px 5px rgba(0,0,0,0.2);
+}
+
 /* 14 Millenials */
 .halfPage14 {
 	background:#fff; 
@@ -464,13 +476,12 @@ color:#373737 !important;
 		background-size: contain;
 		margin: 10% auto 0;
 	}
+	h6.titleCompliments {
+		font-size:1.3em !important;
+	}
 }
 @media screen and (min-width: 1170px) and (max-width: 1400px) {
-	.halfPage14 img{
-		width:85% ;
-	}
 	.halfPage14 {
-		width:90%;
 		padding:30px 8%;
 		margin: 0 auto;
 	}	
@@ -482,5 +493,8 @@ color:#373737 !important;
 @media screen and (min-width: 601px) and (max-width: 1290px) {
 	.boxerQuote {
 		font-size:1em !important;
+	}
+	h6.titleCompliments {
+		font-size:2.4em !important;
 	}
 }
