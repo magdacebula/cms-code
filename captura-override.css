@@ -92,15 +92,15 @@
 
 
 .lineHeight75 {
-		line-height: .75em;
+	line-height: .75em;
 }
 
 p.lineHeight150 {
-		line-height: 1.5em;
+	line-height: 1.5em;
 }
 
 p.lineHeight180 {
-		line-height: 1.8em;
+	line-height: 1.8em;
 }
 
 .lowerCase {
@@ -110,12 +110,12 @@ p.lineHeight180 {
 /*full width inside a container*/
 
 div.section_fullCaptura {
-margin: 0px auto;
-min-width: 100%;
-max-width: 100%;
-width: 100%;
-z-index: 1;
-zoom: 1;
+	margin: 0px auto;
+	min-width: 100%;
+	max-width: 100%;
+	width: 100%;
+	z-index: 1;
+	zoom: 1;
 }
 
 /*top and bottom margins*/
