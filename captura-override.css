@@ -104,6 +104,16 @@ p.lineHeight180 {
 	text-transform:none !important;
 }
 
+
+div.section_fullCaptura {
+margin: 0px auto;
+min-width: 100%;
+max-width: 100%;
+width: 100%;
+z-index: 1;
+zoom: 1;
+}
+
 /*column containers for full-width*/
 
 .bodyCopy .colRight {  /*choose your side - OPTIONAL: if not added you element will center in it's collumn*/
