@@ -153,6 +153,11 @@ div.section_fullCaptura {
 
 /*column containers for full-width*/
 
+.bodyCopy .max1170 {
+	max-width:1170px;
+	margin: auto;
+}
+
 .bodyCopy .colRight {  /*choose your side - OPTIONAL: if not added you element will center in it's collumn*/
 	float:left;
 	margin-right:20%;
