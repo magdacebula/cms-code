@@ -73,8 +73,8 @@
 	text-transform:none !important;
 }
 
-.bodyCopy h6. {
-	font-size:3.3em;
+.bodyCopy h6 {
+	font-size:3.3em !important;
 }
 
 .whiteCenterHeader {
