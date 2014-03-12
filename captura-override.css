@@ -523,6 +523,7 @@ color:#373737 !important;
 
 	.right-copy-block {
 		float:left;
+		max-width:100% !important;
 		width:100% !important;
 	}
 	
