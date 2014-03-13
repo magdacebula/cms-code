@@ -286,8 +286,11 @@ div.section_fullCaptura {
 .bodyCopy ul, .bodyCopy ul li, .lineHeight75, .lineHeight150, .lineHeight180, .lineHeightAuto {
 	font-size: .95em !important;
 }
-.bodyCopy br:after {
-	margin-top:-5px;
+.copyBlock br {
+display: block;
+margin: 10px 0;
+content: " ";
+line-height: inherit;
 }
 }
 /*lists */
