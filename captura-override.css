@@ -103,6 +103,10 @@ p.lineHeight180 {
 	line-height: 1.8em;
 }
 
+p.lineHeightAuto {
+	line-height:inherit;
+}
+
 .lowerCase {
 	text-transform:none !important;
 }
