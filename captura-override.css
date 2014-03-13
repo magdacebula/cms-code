@@ -421,6 +421,10 @@ ol.whiteNumber li{
 	padding: 0 0 0 35px !important;
 	font-size:.75em;
 }
+	
+.article-tip .article-tip-content {
+	padding: 30px 35% 20px 95px !important;
+}
 
 /* 025 Lists */
 ul.purpleBullet25 li {
@@ -553,7 +557,8 @@ color:#373737 !important;
 	}
 	
 	.article-tip .article-tip-content {
-	padding: 30px 35% 20px 95px !important;
+	padding: 30px 5% 0px 5% !important;
+	}
 	
 }
 @media screen and (min-width: 1170px) and (max-width: 1400px) {
