@@ -546,6 +546,12 @@ color:#373737 !important;
 		width:100% !important;
 	}
 	
+	/* 19 Lists */
+
+	.article-tip .article-tip-content li {
+		font-size:1em;
+	}
+	
 }
 @media screen and (min-width: 1170px) and (max-width: 1400px) {
 	.halfPage14 {
