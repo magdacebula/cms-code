@@ -22,7 +22,6 @@
 
 
 /*font size*/
-
 .size120 {font-size:1.2em;}
 .size140 {font-size:1.4em;}
 .size160 {font-size:1.6em;}
@@ -32,87 +31,65 @@
 
 
 /*font family*/
-
 .fontBreeReg { font-family: 'bree_rgregular';}
 .fontBreeLight  { font-family: "Bree Light";}
 
 /*alignment*/
-
 .centered {text-align:center;}
 .right {text-align:right;}
 .left {text-align:left;}
 
 
 /*headers*/
-
-
-.capturaH1, .capturaH2, .capturaH3, .capturaH4, .capturaH5, .bodyCopy h6 {
+.capturaH1, .capturaH2, .capturaH3, .capturaH4, .capturaH5, .bodyCopy h6, .whiteCenterHeader {
 	font-family: 'News Gothic', 'Arial Narrow' , 'Helvetica Narrow',sans-serif;
 	text-transform: uppercase;
 	line-height:1.3em;
 	font-weight:normal !important;
 }
-
 .capturaH1 {
 	font-size:2.4em;
 }
-
 .capturaH2 {
 	font-size:2.2em;
 }
-
 .capturaH3 {
 	font-size:1.6em;
 }
-
 .capturaH4, .capturaH5 {
 	font-size:1.2em;
 }
-
 .capturaH5 {
 	text-transform:none !important;
 }
-
 .bodyCopy h6 {
 	font-size:3.3em !important;
 }
-
 .whiteCenterHeader {
 	font-size:2.9em;
-	font-family: 'News Gothic', 'Arial Narrow' , 'Helvetica Narrow' ,sans-serif;
-	text-transform: uppercase;
 	color:#fff;
 	text-align:center; 
-	line-height:1.5em;
-	font-weight:normal;
+	line-height:1.5em !important;
 }
 
-
 /*line heights*/
-
-
 .lineHeight75 {
 	line-height: .75em;
 }
-
 p.lineHeight150 {
 	line-height: 1.5em;
 }
-
 p.lineHeight180 {
 	line-height: 1.8em;
 }
-
 p.lineHeightAuto {
 	line-height:inherit;
 }
-
 .lowerCase {
 	text-transform:none !important;
 }
 
 /*full width inside a container*/
-
 div.section_fullCaptura {
 	margin: 0px auto;
 	min-width: 100%;
@@ -123,40 +100,31 @@ div.section_fullCaptura {
 }
 
 /*top and bottom margins*/
-
-.bodyCopy .marginTop3 {
+.bodyCopy .marginTop3 { /*choose your margin size*/
 	margin-top:3%;
 }
-
-.bodyCopy .marginTop5 { /*choose your margin size*/
+.bodyCopy .marginTop5 { 
  	margin-top:5%;
 }
-
 .bodyCopy .marginTop10 {
  	margin-top:10%;
 }
 .bodyCopy .marginTop20 {
  	margin-top:20%;
 }
-
 .bodyCopy .marginBtm3 {
 	margin-bottom:3%;
 }
-
 .bodyCopy .marginBtm5 {
 	margin-bottom:5%;
 }
-
 .bodyCopy .marginBtm10 {
 	margin-bottom:10%;
 }
-
 .bodyCopy .marginBtm20 {
 	margin-bottom:20%;
 }
-
-/*column containers for full-width*/
-
+/*column containers for full-width text*/
 .bodyCopy .max1170 {
 	max-width:1170px;
 	margin: auto;
@@ -184,7 +152,7 @@ div.section_fullCaptura {
 	margin-left: auto;
 	margin-right: auto; 
 }
-.twoThirdFull, .twoThirdPadded. .twoThird  { /* two third column text */
+.twoThirdFull, .twoThirdPadded, .twoThird  { /* two third column text */
 	max-width:780px;
 	margin-left: auto;
 	margin-right: auto;
@@ -194,10 +162,10 @@ div.section_fullCaptura {
 	margin-left: auto;
 	margin-right: auto;
 }
-.bodyCopy .fixedColLeft { /*add to fixed width columns after setting left/right overrides to 0--excluding 100%*/
+.bodyCopy .fixedColLeft { /*add to fixed width columns after setting left/right overrides to 0--excluding 1 col 100%*/
 		padding-right: 50px;
 }
-.bodyCopy .fixedColRight { /*add to fixed width columns after setting left/right overrides to 0--excluding 100%*/
+.bodyCopy .fixedColRight { /*add to fixed width columns after setting left/right overrides to 0--excluding 1 col 100%*/
 		padding-left: 50px;
 }
 /*if adjacent image goes to edge add this padding*/
@@ -237,15 +205,6 @@ div.section_fullCaptura {
 	text-align: left;
 	max-width: 42%;
 }
-
-	
-@media screen and (min-width: 601px) and (max-width: 1170px) {
-	.bodyCopy .colRight, .bodyCopy .colLeft, .bodyCopy .marginTop10, .bodyCopy .marginTop5, .bodyCopy .marginTop20 {
-		margin-top: 5%;
-		margin-right:10%;
-		margin-left:10%;
-	}
-}
 @media screen and (max-width: 600px) {
 	.bodyCopy .colRight, .bodyCopy .colLeft, .bodyCopy .marginTop10, .bodyCopy .marginTop20, .bodyCopy .marginTop5  {
 		margin-top: 30px;
@@ -256,19 +215,18 @@ div.section_fullCaptura {
 	}
 	.colLeftPadding {
 	padding-right:0px;
-  }
-  .colRightPadding {  
-	 padding-left:0px;
-  }
-  .bodyCopy .fixedColLeft, .bodyCopy .fixedColRight { 
-		margin-left:20px;
-		margin-right:20px;
-		padding:0px;
+	}
+	.colRightPadding {  
+	   padding-left:0px;
+	}
+	.bodyCopy .fixedColLeft, .bodyCopy .fixedColRight { 
+		  margin-left:20px;
+		  margin-right:20px;
+		  padding:0px;
 	}
 	.quote p {
 		padding:30px 0;
 	}
-
 	.header-p {
 		min-width: 100% !important;
 		max-width: 100% !important;
@@ -276,28 +234,21 @@ div.section_fullCaptura {
 		margin: 0 !important;
 		padding: 5% !important;
 	}
-	
 	.no-padding {
 		padding: 0 5% !important;
 	}
-	
 	.no-margin {
 		margin: 0 5% !important;
 	}
 }
-@media screen and (min-width: 601px) and (max-width: 1270px) {
-	.bodyCopy .fixedColLeft, .bodyCopy .fixedColRight { 
-		margin-left:10%;
+@media screen and (min-width: 601px) and (max-width: 1170px) {
+	.bodyCopy .marginTop10, .bodyCopy .marginTop5, .bodyCopy .marginTop20 {
+		margin-top: 5%;
 		margin-right:10%;
-		padding:0px;
+		margin-left:10%;
 	}
-	
-	.no-padding {
-		padding: 0 5% !important;
-	}
-	
-	.no-margin {
-		margin: 0 5% !important;
+	.full-width-content {
+		background-image: none !important;
 	}
 }
 @media screen and (min-width: 1171px) and (max-width: 1270px) {
@@ -306,12 +257,38 @@ div.section_fullCaptura {
 	margin-left:50px;
 	}
 }
-@media screen and (min-width: 1271px) and (max-width: 1440px) {
-	.oneThirdFullWide, .oneThirdPaddedWide, .oneThird480, .oneThird390 { 
+@media screen and (min-width: 601px) and (max-width: 1270px) {
+	.bodyCopy .fixedColLeft, .bodyCopy .fixedColRight { 
+		margin-left:10%;
+		margin-right:10%;
+		padding:0px;
+	}
+	.no-padding {
+		padding: 0 5% !important;
+	}
+	.no-margin {
+		margin: 0 5% !important;
+	}
+	.colLeftPadding {
+	padding-right: 0px;
+	}
+	.colRightPadding {
+	padding-right: 0px;
+	}
+}
+@media screen and (min-width: 1271px) and (max-width: 1440px) { /*for items that exceed the 1170 grid in width*/
+	.oneThirdFullWide, .oneThirdPaddedWide, .oneThird480 { 
 	margin-right:50px ;
 	margin-left:50px ;
 	}
-	
+}
+@media screen and (min-width: 601px) and (max-width: 1080px) {
+.bodyCopy ul, .bodyCopy ul li, .lineHeight75, .lineHeight150, .lineHeight180, .lineHeightAuto {
+	font-size: .95em !important;
+}
+.bodyCopy br:after {
+	margin-top:-5px;
+}
 }
 /*lists */
 
@@ -554,8 +531,14 @@ color:#373737 !important;
 
 @media screen and (min-width: 601px) and (max-width: 1340px) {
 	.boxerQuote {
-		font-size:1em !important;
+		font-size:1.2em !important;
 	}
+	.boxerQuote p{
+		padding-left: 20px;
+	  padding-top: 30px;
+	  padding-bottom: 20px;
+	 }
+
 	h6.titleCompliments {
 		font-size:2.4em !important;
 	}
