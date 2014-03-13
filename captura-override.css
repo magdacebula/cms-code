@@ -418,7 +418,7 @@ ol.whiteNumber li{
 /* 19 Lists */
 
 .article-tip .article-tip-content li {
-	padding:inherit !important;
+	padding: 0 0 0 35px !important;
 }
 
 /* 025 Lists */
