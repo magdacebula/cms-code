@@ -288,7 +288,7 @@ div.section_fullCaptura {
 }
 .bodyCopy br {
 display: block;
-margin: 10px 0;
+margin-top: 10px;
 content: " ";
 line-height: inherit;
 }
@@ -534,7 +534,7 @@ color:#373737 !important;
 
 @media screen and (min-width: 601px) and (max-width: 1340px) {
 	.boxerQuote {
-		font-size:1.2em !important;
+		font-size:1.1em !important;
 	}
 	.boxerQuote p{
 		padding-left: 20px;
