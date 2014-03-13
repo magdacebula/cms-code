@@ -552,6 +552,9 @@ color:#373737 !important;
 		font-size:1em;
 	}
 	
+	.article-tip .article-tip-content {
+	padding: 30px 35% 20px 95px !important;
+	
 }
 @media screen and (min-width: 1170px) and (max-width: 1400px) {
 	.halfPage14 {
