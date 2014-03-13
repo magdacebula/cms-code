@@ -161,7 +161,6 @@ div.section_fullCaptura {
 	max-width:1170px;
 	margin: auto;
 }
-
 .bodyCopy .colRight {  /*choose your side - OPTIONAL: if not added you element will center in it's collumn*/
 	float:left;
 	margin-right:20%;
@@ -170,50 +169,23 @@ div.section_fullCaptura {
 	float:right;
 	margin-left:20%;
 }
-
 .oneFullWide { /* full width block */
 	max-width:100%;
 	margin-left: auto;
 	margin-right: auto;
 }
-
-.oneThirdFullNarrow { /* for tighter designs where adjacent image does not go full width*/
-	max-width:345px; 
-	margin-left: auto;
-	margin-right: auto;
-}
-.oneThirdPaddedNarrow { /* for tighter designs where adjacent image goes to full width--need to add padding only if you select colRight or Left*/
-	max-width:295px;
-	margin-left: auto;
-	margin-right: auto;
-}
-.oneThirdFullWide { /*for designs with a lot of white space where adjacent image does not go full width*/
+.oneThirdFullWide, .oneThirdPaddedWide  { /*one third column text*/
 	max-width:480px;
 	margin-left: auto;
 	margin-right: auto; 
 }
-.oneThirdPaddedWide { /*for designs with a lot of white space where adjacent image image goes to full width--need to add padding only if you select colRight or Left*/
-	max-width:430px; 
-	margin-left: auto;
-	margin-right: auto;
-}
-.twoThirdFull { /* use when adjacent image does not go full width */
+.twoThirdFull, .twoThirdPadded  { /* two third column text */
 	max-width:780px;
 	margin-left: auto;
 	margin-right: auto;
 }
-.twoThirdPadded { /*use when adjacent image goes to full width--need to add padding only if you select colRight or Left*/
-	max-width:730px; 
-	margin-left: auto;
-	margin-right: auto;
-}
-.oneHalfFull { /* use when adjacent image does not go full width STYLE UNFINISHED STILL-safe to edit-*/
+.oneHalfFull, .oneHalfPadded { /*one half column text*/
 	max-width:585px;
-	margin-left: auto;
-	margin-right: auto;
-}
-.oneHalfPadded { /*use when adjacent image goes to full width--need to add padding STYLE UNFINISHED STILL-safe to edit--may need breakpoints*/
-	max-width:535px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -334,6 +306,7 @@ div.section_fullCaptura {
 	margin-right:50px ;
 	margin-left:50px ;
 	}
+	
 }
 /*lists */
 
