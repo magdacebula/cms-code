@@ -8,7 +8,7 @@
 
 .blue100 {color:#1EAAF0 !important;}
 .blue80 {color:#4BBBF3 !important;}
-.blue40 {color:##8ED4F7 !important;}
+.blue40 {color:#8ED4F7 !important;}
 .dkBlue {color:#005082 !important;}
 .ltBlue {color:#0aacf1 !important;}
 
@@ -207,7 +207,7 @@ div.section_fullCaptura {
 	max-width: 42%;
 }
 @media screen and (max-width: 600px) {
-	.bodyCopy .colRight, .bodyCopy .colLeft, .bodyCopy .marginTop10, .bodyCopy .marginTop20, .bodyCopy .marginTop5  {
+	.bodyCopy .colRight, .bodyCopy .colLeft, .bodyCopy .marginTop10, .bodyCopy .marginTop20, .bodyCopy .marginTop5, .bodyCopy .marginTop3 {
 		margin-top: 30px;
 		margin-right:20px;
 		margin-left:20px;
@@ -253,7 +253,7 @@ div.section_fullCaptura {
 	}
 }
 @media screen and (min-width: 1171px) and (max-width: 1270px) {
-	.bodyCopy .marginTop10, .bodyCopy .marginTop20, .bodyCopy .marginTop5 { 
+	.bodyCopy .marginTop10, .bodyCopy .marginTop20, .bodyCopy .marginTop5, .bodyCopy .marginTop3 { 
 	margin-right:50px;
 	margin-left:50px;
 	}
