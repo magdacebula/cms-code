@@ -101,6 +101,9 @@ div.section_fullCaptura {
 }
 
 /*top and bottom margins*/
+.bodyCopy .marginTop0 { /*choose your margin size*/
+	margin-top:0%;
+}
 .bodyCopy .marginTop3 { /*choose your margin size*/
 	margin-top:3%;
 }
@@ -207,7 +210,7 @@ div.section_fullCaptura {
 	max-width: 42%;
 }
 @media screen and (max-width: 600px) {
-	.bodyCopy .colRight, .bodyCopy .colLeft, .bodyCopy .marginTop10, .bodyCopy .marginTop20, .bodyCopy .marginTop5, .bodyCopy .marginTop3 {
+	.bodyCopy .colRight, .bodyCopy .colLeft, .bodyCopy .marginTop10, .bodyCopy .marginTop20, .bodyCopy .marginTop5, .bodyCopy .marginTop3, .bodyCopy .marginTop0 {
 		margin-top: 30px;
 		margin-right:20px;
 		margin-left:20px;
@@ -243,8 +246,12 @@ div.section_fullCaptura {
 	}
 }
 @media screen and (min-width: 601px) and (max-width: 1170px) {
-	.bodyCopy .marginTop10, .bodyCopy .marginTop5, .bodyCopy .marginTop20 {
+	.bodyCopy .marginTop10, .bodyCopy .marginTop5, .bodyCopy .marginTop20  {
 		margin-top: 5%;
+		margin-right:10%;
+		margin-left:10%;
+	}
+	.bodyCopy .marginTop3, .bodyCopy .marginTop0  {
 		margin-right:10%;
 		margin-left:10%;
 	}
@@ -253,7 +260,7 @@ div.section_fullCaptura {
 	}
 }
 @media screen and (min-width: 1171px) and (max-width: 1270px) {
-	.bodyCopy .marginTop10, .bodyCopy .marginTop20, .bodyCopy .marginTop5, .bodyCopy .marginTop3 { 
+	.bodyCopy .marginTop10, .bodyCopy .marginTop20, .bodyCopy .marginTop5, .bodyCopy .marginTop3, .bodyCopy .marginTop0  { 
 	margin-right:50px;
 	margin-left:50px;
 	}
@@ -475,6 +482,10 @@ color:#373737 !important;
 /*Start of Media Queries For specific pages*/
 
 @media screen and (max-width: 600px) {
+	.craft-circle img {
+	top: 25px;
+	position: relative;
+	}
   .starList {
 	  padding-right: 30px;
   }
@@ -497,7 +508,7 @@ color:#373737 !important;
 		margin: 10% auto 0;
 	}
 	h6.titleCompliments {
-		font-size:1.3em !important;
+		font-size:1.6em !important;
 	}
 	
 	.left-block-quote {
@@ -550,4 +561,7 @@ color:#373737 !important;
 	h6.titleCompliments {
 		font-size:2.4em !important;
 	}
+/*	.capturaH1, .capturaH2, .capturaH3, .capturaH4, .capturaH5, .bodyCopy h6,  {
+	line-height:1.2em;
+}*/
 }
