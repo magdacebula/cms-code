@@ -211,7 +211,7 @@ div.section_fullCaptura {
 }
 @media screen and (max-width: 600px) {
 	.bodyCopy .colRight, .bodyCopy .colLeft, .bodyCopy .marginTop10, .bodyCopy .marginTop20, .bodyCopy .marginTop5, .bodyCopy .marginTop3, .bodyCopy .marginTop0 {
-		margin-top: 30px;
+		margin-top: 40px;
 		margin-right:20px;
 		margin-left:20px;
 		float:none;
@@ -261,6 +261,10 @@ div.section_fullCaptura {
 	.dsktopSmlMarginTop20 {
 		margin-top: 20% !important;
 	}
+	.dsktopSmlMarginTop10 {
+		margin-top: 10% !important;
+	}
+}
 }
 @media screen and (min-width: 1171px) and (max-width: 1270px) {
 	.bodyCopy .marginTop10, .bodyCopy .marginTop20, .bodyCopy .marginTop5, .bodyCopy .marginTop3, .bodyCopy .marginTop0  { 
