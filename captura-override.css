@@ -258,6 +258,9 @@ div.section_fullCaptura {
 	.full-width-content {
 		background-image: none !important;
 	}
+	.dsktopSmlMarginTop20 {
+		margin-top: 20% !important;
+	}
 }
 @media screen and (min-width: 1171px) and (max-width: 1270px) {
 	.bodyCopy .marginTop10, .bodyCopy .marginTop20, .bodyCopy .marginTop5, .bodyCopy .marginTop3, .bodyCopy .marginTop0  { 
