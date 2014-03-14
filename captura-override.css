@@ -8,6 +8,7 @@
 
 .blue100 {color:#1EAAF0 !important;}
 .blue80 {color:#4BBBF3 !important;}
+.blue40 {color:##8ED4F7 !important;}
 .dkBlue {color:#005082 !important;}
 .ltBlue {color:#0aacf1 !important;}
 
@@ -63,7 +64,7 @@
 	text-transform:none !important;
 }
 .bodyCopy h6 {
-	font-size:3.3em !important;
+	font-size:3.4em !important;
 }
 .whiteCenterHeader {
 	font-size:2.9em;
@@ -76,13 +77,13 @@
 .lineHeight75 {
 	line-height: .75em;
 }
-p.lineHeight150 {
+.lineHeight150 {
 	line-height: 1.5em;
 }
-p.lineHeight180 {
+.lineHeight180 {
 	line-height: 1.8em;
 }
-p.lineHeightAuto {
+.lineHeightAuto {
 	line-height:inherit;
 }
 .lowerCase {
@@ -367,7 +368,6 @@ ul.purpleBulletStd li {
 ol.whiteNumber {
 	color:#fff;
 	font-weight:normal;
-	font-size:.8em;	
 }
 
 ol.whiteNumber li{
@@ -395,6 +395,11 @@ ul.purpleBullet25 li {
 	margin-bottom:10px;
 	line-height: 1.5em;
 }
+
+/*02 Boxer*/
+.boxerQuote {
+		font-size:1.1em !important;
+	}
 
 /*09 Compliments*/
 
@@ -532,9 +537,9 @@ color:#373737 !important;
 	}
 }
 
-@media screen and (min-width: 601px) and (max-width: 1340px) {
+@media screen and (min-width: 601px) and (max-width: 1140px) {
 	.boxerQuote {
-		font-size:1.1em !important;
+		font-size:1.3em !important;
 	}
 	.boxerQuote p{
 		padding-left: 20px;
