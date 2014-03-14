@@ -3,128 +3,324 @@
 
 /*colors*/
 
-.blue100 {color:#1EAAF0;}
-.blue80 {color:#4BBBF3;}
-.dkBlue {color:#005082;}
+.white {color:#FFFFFF !important;}
+.dkGrey {color:#5e5e5e !important;}
 
-.red100 {color:#B41E4B;}
-.dkRed {color:#881637;}
+.blue100 {color:#1EAAF0 !important;}
+.blue80 {color:#4BBBF3 !important;}
+.blue40 {color:#8ED4F7 !important;}
+.dkBlue {color:#005082 !important;}
+.ltBlue {color:#0aacf1 !important;}
 
-.green100 {color:#BED22D;}
-.dkGreen {color:#9BAC42;}
+.red100 {color:#B41E4B !important;}
+.dkRed {color:#881637 !important;}
 
-.purple100 {color:#7D3C9B;}
-.dkPurple {color:#67327A;}
+.green100 {color:#BED22D !important;}
+.dkGreen {color:#9BAC42 !important;}
+
+.purple100 {color:#7D3C9B !important;}
+.dkPurple {color:#67327A !important;}
+
+
+/*font size*/
+.size120 {font-size:1.2em;}
+.size140 {font-size:1.4em;}
+.size160 {font-size:1.6em;}
+.size180 {font-size:1.8em;}
+.size200 {font-size:2em;}
+.size240 {font-size:2.4em;}
+
+
+/*font family*/
+.fontBreeReg { font-family: 'bree_rgregular';}
+.fontBreeLight  { font-family: "Bree Light";}
+
+/*alignment*/
+.centered {text-align:center;}
+.right {text-align:right;}
+.left {text-align:left;}
 
 
 /*headers*/
-
-.capturaH1 {
+.capturaH1, .capturaH2, .capturaH3, .capturaH4, .capturaH5, .bodyCopy h6, .whiteCenterHeader {
+	font-family: 'News Gothic', 'Arial Narrow' , 'Helvetica Narrow',sans-serif;
+	text-transform: uppercase;
+	line-height:1.3em;
+	font-weight:normal !important;
 }
-
+.capturaH1 {
+	font-size:2.4em;
+}
 .capturaH2 {
 	font-size:2.2em;
-	font-family: 'News Gothic', 'Arial Narrow' , 'Helvetica Narrow',sans-serif;
-	text-transform: uppercase;
-	line-height:1.5em;
 }
-
 .capturaH3 {
 	font-size:1.6em;
-	font-family: 'News Gothic', 'Arial Narrow' , 'Helvetica Narrow',sans-serif;
-	text-transform: uppercase;
-	line-height:1.5em;
-
 }
-
+.capturaH4, .capturaH5 {
+	font-size:1.2em;
+}
+.capturaH5 {
+	text-transform:none !important;
+}
+.bodyCopy h6 {
+	font-size:3.4em !important;
+}
 .whiteCenterHeader {
 	font-size:2.9em;
-	font-family: 'News Gothic', 'Arial Narrow' , 'Helvetica Narrow' ,sans-serif;
-	text-transform: uppercase;
 	color:#fff;
 	text-align:center; 
-	line-height:1.5em;
-
+	line-height:1.5em !important;
 }
 
-p.lineHeight150 {
-		line-height: 1.5em;
-		font-weight:normal;
+/*line heights*/
+.lineHeight75 {
+	line-height: .75em;
+}
+.lineHeight150 {
+	line-height: 1.5em;
+}
+.lineHeight180 {
+	line-height: 1.8em;
+}
+.lineHeightAuto {
+	line-height:inherit;
+}
+.lowerCase {
+	text-transform:none !important;
 }
 
+/*full width inside a container*/
+div.section_fullCaptura {
+	margin: 0px auto;
+	min-width: 100%;
+	max-width: 100%;
+	width: 100%;
+	z-index: 1;
+	zoom: 1;
+}
 
-/*column containers for full-width*/
-
-	/*if adjacent image doesn't go to edge:*/
-.oneThirdRight {
-	max-width:480px; 
+/*top and bottom margins*/
+.bodyCopy .marginTop0 { /*choose your margin size*/
+	margin-top:0%;
+}
+.bodyCopy .marginTop3 { /*choose your margin size*/
+	margin-top:3%;
+}
+.bodyCopy .marginTop5 { 
+ 	margin-top:5%;
+}
+.bodyCopy .marginTop10 {
+ 	margin-top:10%;
+}
+.bodyCopy .marginTop20 {
+ 	margin-top:20%;
+}
+.bodyCopy .marginBtm3 {
+	margin-bottom:3%;
+}
+.bodyCopy .marginBtm5 {
+	margin-bottom:5%;
+}
+.bodyCopy .marginBtm10 {
+	margin-bottom:10%;
+}
+.bodyCopy .marginBtm20 {
+	margin-bottom:20%;
+}
+/*column containers for full-width text*/
+.bodyCopy .max1170 {
+	max-width:1170px;
+	margin: auto;
+}
+.bodyCopy .colRight {  /*choose your side - OPTIONAL: if not added you element will center in it's collumn*/
 	float:left;
-	margin-top:20%;
 	margin-right:20%;
 }
-
-	/*if adjacent image doesn't go to edge:*/
-.oneThirdLeft {
-	max-width:480px; 
+.bodyCopy .colLeft { 
 	float:right;
-	margin-top:20%;
 	margin-left:20%;
 }
-
-	/*if adjacent image goes to edge/requires padding:*/
-.twoThirdLeft {
-	max-width:780px; 
+.oneFullWide { /* full width block */
+	max-width:100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.oneThirdFullNarrow, .oneThirdPaddedNarrow, .oneThird390   { /*one third column text*/
+	max-width:390px;
+	margin-left: auto;
+	margin-right: auto; 
+}
+.oneThirdFullWide, .oneThirdPaddedWide, .oneThird480  { /*one third column text*/
+	max-width:480px;
+	margin-left: auto;
+	margin-right: auto; 
+}
+.twoThirdFull, .twoThirdPadded, .twoThird  { /* two third column text */
+	max-width:780px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.oneHalfFull, .oneHalfPadded, .oneHalf { /*one half column text*/
+	max-width:585px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.bodyCopy .fixedColLeft { /*add to fixed width columns after setting left/right overrides to 0--excluding 1 col 100%*/
+		padding-right: 50px;
+}
+.bodyCopy .fixedColRight { /*add to fixed width columns after setting left/right overrides to 0--excluding 1 col 100%*/
+		padding-left: 50px;
+}
+/*if adjacent image goes to edge add this padding*/
+.colLeftPadding {
 	padding-right:50px;
-	float:right;
 }
-
-	/*if adjacent image goes to edge/requires padding:*/
-.twoThirdRight {
-	max-width:780px; 
+.colRightPadding {  
 	padding-left:50px;
-	float:left;
+}
+/*to be used for all block quotes not flattened in an image*/
+.quote {
+		background: url(/content/dam/diasgrandiosos/global/quotation-marks/top_quote.png) top left no-repeat,
+		url(/content/dam/diasgrandiosos/global/quotation-marks/bottom_quote.png) bottom right no-repeat;
 }
 
-
-/*half-page tout workarounds*/
-
-.circleContainer {
-	text-align: center;
-	float: left;
-	padding-bottom: 275px;
-	background-repeat: no-repeat;
-	background-position: bottom center;
-	min-width: 50%;
-	width: 256px;
-	max-height: 344px;
-	background-size: contain;
-	margin-top: 10%;
+.quote p {
+	text-align:left !important;
+	padding-left: 40px;
+	padding-top: 40px;
+	padding-bottom: 30px;
 }
 
-.circleContainer img {
-	display:block;
-	max-width:90%;
-	margin: 25px auto;
-}
-
-.capturaClear {
+.quote-name {
+	display:block!important;
+	color: #5e5e5e;
+	margin: 20px 0 0 40px;
 	clear:both;
 }
-	
 
-/*lists*/
+.header-p {
+	display: block;
+	float: left;
+	margin: 10% 3% 10% 0;
+	min-height: 100px;
+	padding: 0;
+	position: relative;
+	text-align: left;
+	max-width: 42%;
+}
+@media screen and (max-width: 600px) {
+	.bodyCopy .colRight, .bodyCopy .colLeft, .bodyCopy .marginTop10, .bodyCopy .marginTop20, .bodyCopy .marginTop5, .bodyCopy .marginTop3, .bodyCopy .marginTop0 {
+		margin-top: 30px;
+		margin-right:20px;
+		margin-left:20px;
+		float:none;
+		max-width:100% !important;
+	}
+	.colLeftPadding {
+	padding-right:0px;
+	}
+	.colRightPadding {  
+	   padding-left:0px;
+	}
+	.bodyCopy .fixedColLeft, .bodyCopy .fixedColRight { 
+		  margin-left:20px;
+		  margin-right:20px;
+		  padding:0px;
+	}
+	.quote p {
+		padding:30px 0;
+	}
+	.header-p {
+		min-width: 100% !important;
+		max-width: 100% !important;
+		float: left !important;
+		margin: 0 !important;
+		padding: 5% !important;
+	}
+	.no-padding {
+		padding: 0 5% !important;
+	}
+	.no-margin {
+		margin: 0 5% !important;
+	}
+}
+@media screen and (min-width: 601px) and (max-width: 1170px) {
+	.bodyCopy .marginTop10, .bodyCopy .marginTop5, .bodyCopy .marginTop20  {
+		margin-top: 5%;
+		margin-right:10%;
+		margin-left:10%;
+	}
+	.bodyCopy .marginTop3, .bodyCopy .marginTop0  {
+		margin-right:10%;
+		margin-left:10%;
+	}
+	.full-width-content {
+		background-image: none !important;
+	}
+}
+@media screen and (min-width: 1171px) and (max-width: 1270px) {
+	.bodyCopy .marginTop10, .bodyCopy .marginTop20, .bodyCopy .marginTop5, .bodyCopy .marginTop3, .bodyCopy .marginTop0  { 
+	margin-right:50px;
+	margin-left:50px;
+	}
+}
+@media screen and (min-width: 601px) and (max-width: 1270px) {
+	.bodyCopy .fixedColLeft, .bodyCopy .fixedColRight { 
+		margin-left:10%;
+		margin-right:10%;
+		padding:0px;
+	}
+	.no-padding {
+		padding: 0 5% !important;
+	}
+	.no-margin {
+		margin: 0 5% !important;
+	}
+	.colLeftPadding {
+	padding-right: 0px;
+	}
+	.colRightPadding {
+	padding-right: 0px;
+	}
+}
+@media screen and (min-width: 1271px) and (max-width: 1440px) { /*for items that exceed the 1170 grid in width*/
+	.oneThirdFullWide, .oneThirdPaddedWide, .oneThird480 { 
+	margin-right:50px ;
+	margin-left:50px ;
+	}
+}
+@media screen and (min-width: 601px) and (max-width: 1080px) {
+.bodyCopy ul, .bodyCopy ul li, .lineHeight75, .lineHeight150, .lineHeight180, .lineHeightAuto {
+	font-size: .95em !important;
+}
+.bodyCopy br {
+display: block;
+margin-top: 10px;
+content: " ";
+line-height: inherit;
+}
+}
+/*lists */
 
-ul.greenBullet, ul.blueBullet, ul.redBullet, ul.purpleBullet {
+ul.greenBullet, ul.blueBullet, ul.redBullet, ul.purpleBullet, ul.greenBulletStd, ul.blueBulletStd, ul.redBulletStd, ul.purpleBulletStd, ul.greenBulletMed {
 	list-style:none;
 	padding:0px;
 	text-indent:0;
 	font-weight:normal;
 }
-
+/*027 lists */
 ul.greenBullet li {
 	background:url(/content/dam/diasgrandiosos/icons/green-bullet.png) 0px 10px no-repeat;
 	padding-left:35px;
 	margin-bottom:35px;
+	line-height: 1.5em;
+}
+
+ul.greenBulletMed li {
+	background:url(/content/dam/diasgrandiosos/icons/green-bullet.png) 0px 10px no-repeat;
+	padding-left:35px;
+	margin-bottom:20px;
 	line-height: 1.5em;
 }
 
@@ -148,41 +344,224 @@ ul.purpleBullet li {
 	margin-bottom:35px;
 	line-height: 1.5em;
 }
+/* Std Lists */
+ul.greenBulletStd li {
+	background:url(/content/dam/diasgrandiosos/icons/green-bullet.png) 0px 10px no-repeat;
+	padding-left:35px !important;
+	margin-bottom:10px;
+	line-height: 1.5em;
+}
+ul.blueBulletStd li {
+	background:url(/content/dam/diasgrandiosos/icons/blue-bullet.png) 0px 10px no-repeat;
+	padding-left:35px;
+	margin-bottom:10px;
+	line-height: 1.5em;
+}
+ul.redBulletStd li {
+	background:url(/content/dam/diasgrandiosos/icons/red-bullet.png) 0px 10px no-repeat;
+	padding-left:35px;
+	margin-bottom:10px;
+	line-height: 1.5em;
+}
+ul.purpleBulletStd li {
+	background:url(/content/dam/diasgrandiosos/icons/purple-bullet.png) 0px 10px no-repeat;
+	padding-left:35px;
+	margin-bottom:10px;
+	line-height: 1.5em;
+}
+
+/* 03 Lists */
+
+ol.whiteNumber {
+	color:#fff;
+	font-weight:normal;
+}
+
+ol.whiteNumber li{
+	color:#fff;
+	margin-bottom:10px;
+	line-height: 1.5em;
+}
+
+
+/* 19 Lists */
+
+.article-tip .article-tip-content li {
+	padding: 0 0 0 35px !important;
+	font-size:.75em;
+}
+	
+.article-tip .article-tip-content {
+	padding: 30px 35% 20px 95px !important;
+}
+
+/* 025 Lists */
+ul.purpleBullet25 li {
+	background:url(/content/dam/diasgrandiosos/icons/purple-bullet.png) 0px 10px no-repeat;
+	padding-left:35px;
+	margin-bottom:10px;
+	line-height: 1.5em;
+}
+
+/*02 Boxer*/
+.boxerQuote {
+		font-size:1.1em !important;
+	}
+
+/*09 Compliments*/
+
+h6.titleCompliments {
+	text-align:center;
+	color:#fff;
+	text-shadow: 0 3px 5px rgba(0,0,0,0.2);
+}
+
+/* 14 Millenials */
+.halfPage14 {
+	background:#fff; 
+	width:100%;
+	padding:40px 10%;
+}
+.halfPage14 p {
+	margin-bottom: 40px;
+}
+.halfPage14 img {
+	width:100%;
+	height:auto;
+	display:block;
+	margin:0 auto;
+	max-width: 437px;
+}
+
+/*15 mom eating healthy*/
+.circleContainer {
+	text-align: center;
+	float: left;
+	padding-bottom: 360px;
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	min-width: 50%;
+	max-width: 256px;
+	max-height: 360px;
+	background-size: contain;
+}
+.circleContainer img {
+	display:block;
+	max-width:90%;
+	margin: 10% auto 0;
+}
+.capturaClear {
+	clear:both;
+}
+
+/*21 */
+
+.left-block-quote {
+	float:left;
+	width:50%;
+}
+
+.left-block-quote p {
+	font-size: 2.4em;
+	text-align:left;
+}
+
+.right-copy-block {
+	float:left;
+	max-width:50%;
+}
 
 /*27 Spice Up Cereal*/
-
 .starList {
-background:url(/content/dam/diasgrandiosos/icons/star-bullet.png) left 3px no-repeat; 
+background:url(/content/dam/diasgrandiosos/icons/star-bullet.png) left 4px no-repeat; 
 padding-left:40px; 
 color:#373737 !important;
 }
 
 
+/*Start of Media Queries For specific pages*/
+
 @media screen and (max-width: 600px) {
-	.oneThirdRight {
-		margin-top: 10%;
-		margin-right:20px;
-		float:none;
+	.craft-circle img {
+	top: 25px;
+	position: relative;
+	}
+  .starList {
+	  padding-right: 30px;
+  }
+  	.halfPage14 {
+		padding:30px 8%;
+	}	
+	.halfPage14 p{
+		margin-bottom: 25px;
+	}
+	.circleContainer {
+		text-align: center;
+		float: none;
+		padding-bottom: 285px;
+		background-repeat: no-repeat;
+		background-position: bottom center;
+		min-width: 50%;
+		max-width: 300px;
+		max-height: none;
+		background-size: contain;
+		margin: 10% auto 0;
+	}
+	h6.titleCompliments {
+		font-size:1.6em !important;
 	}
 	
-	.oneThirdLeft {
-		margin-top: 10%;
-		margin-left:0;
-		margin-right:20px;
-		float:none;
+	.left-block-quote {
+		float:left;
+		width:100% !important;
+	}
+
+	.left-block-quote p {
+		font-size: 2.4em;
+		text-align:left;
+	}
+
+	.right-copy-block {
+		float:left;
+		max-width:100% !important;
+		width:100% !important;
+	}
+	
+	/* 19 Lists */
+
+	.article-tip .article-tip-content li {
+		font-size:1em;
+	}
+	
+	.article-tip .article-tip-content {
+	padding: 30px 5% 0px 5% !important;
+	}
+	
+}
+@media screen and (min-width: 1170px) and (max-width: 1400px) {
+	.halfPage14 {
+		padding:30px 8%;
+		margin: 0 auto;
+	}	
+	.halfPage14 p{
+		margin-bottom: 30px;
 	}
 }
 
-@media screen and (min-width: 601px) and (max-width:1100px) {
-	.oneThirdRight {
-		margin-top: 10%;
-		margin-right:10%;
-		float:none;
+@media screen and (min-width: 601px) and (max-width: 1140px) {
+	.boxerQuote {
+		font-size:1.3em !important;
 	}
-	
-	.oneThirdLeft {
-		margin-top: 10%;
-		margin-left:10%;
-		float:none;
+	.boxerQuote p{
+		padding-left: 20px;
+	  padding-top: 30px;
+	  padding-bottom: 20px;
+	 }
+
+	h6.titleCompliments {
+		font-size:2.4em !important;
 	}
+/*	.capturaH1, .capturaH2, .capturaH3, .capturaH4, .capturaH5, .bodyCopy h6,  {
+	line-height:1.2em;
+}*/
 }
