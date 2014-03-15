@@ -264,7 +264,12 @@ div.section_fullCaptura {
 	.dsktopSmlMarginTop10 {
 		margin-top: 10% !important;
 	}
-}
+	.dsktopSmlMarginTop0 {
+		margin-top: 0% !important;
+	}
+	.dsktopSmlMarginTop15 {
+		margin-top: 15% !important;
+	}
 }
 @media screen and (min-width: 1171px) and (max-width: 1270px) {
 	.bodyCopy .marginTop10, .bodyCopy .marginTop20, .bodyCopy .marginTop5, .bodyCopy .marginTop3, .bodyCopy .marginTop0  { 
