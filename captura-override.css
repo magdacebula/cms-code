@@ -565,6 +565,18 @@ color:#373737 !important;
 	padding: 30px 5% 0px 5% !important;
 	}
 	
+	/* 12 Copy Blocks */
+	.marginLT10 {
+		margin-left:5%;
+		margin-right:5%;
+		margin-top:10%;
+	}
+	.marginRT10 {
+		margin-left:5%;
+		margin-right:5%;
+		margin-top:10%;
+	}
+	
 }
 @media screen and (min-width: 1170px) and (max-width: 1400px) {
 	.halfPage14 {
