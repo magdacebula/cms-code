@@ -113,6 +113,9 @@ div.section_fullCaptura {
 .bodyCopy .marginTop10 {
  	margin-top:10%;
 }
+.bodyCopy .marginTop15 {
+ 	margin-top:15%;
+}
 .bodyCopy .marginTop20 {
  	margin-top:20%;
 }
@@ -124,6 +127,9 @@ div.section_fullCaptura {
 }
 .bodyCopy .marginBtm10 {
 	margin-bottom:10%;
+}
+.bodyCopy .marginTop15 {
+ 	margin-bottom:15%;
 }
 .bodyCopy .marginBtm20 {
 	margin-bottom:20%;
