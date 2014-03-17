@@ -395,6 +395,12 @@ ol.whiteNumber li{
 	line-height: 1.5em;
 }
 
+/* 12 Copy Blocks */
+.marginLT10 {
+	margin-left:10%;
+	margin-top:10%;
+}
+
 
 /* 19 Lists */
 
