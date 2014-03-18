@@ -242,7 +242,6 @@ div.section_fullCaptura {
 		max-width: 100% !important;
 		float: left !important;
 		margin: 0 !important;
-		padding: 5% !important;
 	}
 	.no-padding {
 		padding: 0 5% !important;
@@ -388,8 +387,12 @@ ul.purpleBulletStd li {
 	line-height: 1.5em;
 }
 
-/* 03 Lists */
+/*02 Boxer*/
+.boxerQuote {
+		font-size:1.1em !important;
+	}
 
+/* 03 Lists */
 ol.whiteNumber {
 	color:#fff;
 	font-weight:normal;
@@ -401,6 +404,15 @@ ol.whiteNumber li{
 	line-height: 1.5em;
 }
 
+/*09 Compliments*/
+
+h6.titleCompliments {
+	text-align:center;
+	color:#fff;
+	text-shadow: 0 3px 5px rgba(0,0,0,0.2);
+}
+
+
 /* 12 Copy Blocks */
 .marginLT10 {
 	margin-left:10%;
@@ -411,38 +423,6 @@ ol.whiteNumber li{
 	margin-top:10%;
 }
 
-
-/* 19 Lists */
-
-.article-tip .article-tip-content li {
-	padding: 0 0 0 35px !important;
-	font-size:.75em;
-}
-	
-.article-tip .article-tip-content {
-	padding: 30px 35% 20px 95px !important;
-}
-
-/* 025 Lists */
-ul.purpleBullet25 li {
-	background:url(/content/dam/diasgrandiosos/icons/purple-bullet.png) 0px 10px no-repeat;
-	padding-left:35px;
-	margin-bottom:10px;
-	line-height: 1.5em;
-}
-
-/*02 Boxer*/
-.boxerQuote {
-		font-size:1.1em !important;
-	}
-
-/*09 Compliments*/
-
-h6.titleCompliments {
-	text-align:center;
-	color:#fff;
-	text-shadow: 0 3px 5px rgba(0,0,0,0.2);
-}
 
 /* 14 Millenials */
 .halfPage14 {
@@ -482,8 +462,17 @@ h6.titleCompliments {
 	clear:both;
 }
 
-/*21 */
+/* 19 Lists */
+.article-tip .article-tip-content li {
+	padding: 0 0 0 35px !important;
+	font-size:.75em;
+}
+	
+.article-tip .article-tip-content {
+	padding: 30px 35% 20px 95px !important;
+}
 
+/*21 */
 .left-block-quote {
 	float:left;
 	width:50%;
@@ -498,6 +487,15 @@ h6.titleCompliments {
 	float:left;
 	max-width:50%;
 }
+
+/* 025 Lists */
+ul.purpleBullet25 li {
+	background:url(/content/dam/diasgrandiosos/icons/purple-bullet.png) 0px 10px no-repeat;
+	padding-left:35px;
+	margin-bottom:10px;
+	line-height: 1.5em;
+}
+
 
 /*27 Spice Up Cereal*/
 .starList {
