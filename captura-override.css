@@ -416,7 +416,7 @@ ol.whiteNumber li{
 	line-height: 1.5em;
 }
 
-.craft-circle {
+.craft-circle, .craft-circle-sandwich {
 	 display:inline-block;
 	 float:left;
 	 margin: 0 15%;
