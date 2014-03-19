@@ -404,7 +404,7 @@ ul.purpleBulletStd li {
 		font-size:1.1em !important;
 	}
 
-/* 03 Lists */
+/* 03 Poptarts */
 ol.whiteNumber {
 	color:#fff;
 	font-weight:normal;
@@ -414,6 +414,12 @@ ol.whiteNumber li{
 	color:#fff;
 	margin-bottom:10px;
 	line-height: 1.5em;
+}
+
+.circleBlock{
+	position: relative;
+	z-index: 1;
+	margin-top: -30%;
 }
 
 /*06 Picky Eaters */
