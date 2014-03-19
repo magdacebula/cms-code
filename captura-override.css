@@ -676,10 +676,7 @@ color:#373737 !important;
 /*Start of Media Queries For specific pages*/
 
 @media screen and (max-width: 600px) {
-	.craft-circle img {
-	top: 25px;
-	position: relative;
-	}
+
   .starList {
 	  padding-right: 30px;
   }
@@ -723,7 +720,11 @@ color:#373737 !important;
 	
 	/*03 Poptarts */
 	.craft-circle {
-		padding-bottom:75px !important;
+		padding-bottom:10% !important;
+	}
+	
+	.craft-circle-sandwich {
+		padding-bottom:0 !important;
 	}
 	
 	.circleImg {
