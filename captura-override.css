@@ -416,7 +416,7 @@ ol.whiteNumber li{
 	line-height: 1.5em;
 }
 
-.circleBlock{
+.circleImg{
 	position: relative;
 	z-index: 1;
 	margin-top: -30%;
@@ -718,6 +718,12 @@ color:#373737 !important;
 	/*03 Poptarts */
 	.craft-circle {
 		padding-bottom:105px !important;
+	}
+	
+	.circleImg {
+		position: relative;
+		z-index: 1;
+		margin-top: -20%;
 	}
 	
 	
