@@ -48,24 +48,13 @@
 	line-height:1.3em;
 	font-weight:normal !important;
 }
-.capturaH1 {
-	font-size:2.4em;
-}
-.capturaH2 {
-	font-size:2.2em;
-}
-.capturaH3 {
-	font-size:1.6em;
-}
-.capturaH4, .capturaH5 {
-	font-size:1.2em;
-}
-.capturaH5 {
-	text-transform:none !important;
-}
-.bodyCopy h6 {
-	font-size:3.4em !important;
-}
+.capturaH1 {font-size:2.4em;}
+.capturaH2 {font-size:2.2em;}
+.capturaH3 {font-size:1.6em;}
+.capturaH4, .capturaH5 {font-size:1.2em;}
+.capturaH5 {text-transform:none !important;}
+.bodyCopy h6 {font-size:3.4em !important;}
+
 .whiteCenterHeader {
 	font-size:2.9em;
 	color:#fff;
@@ -74,23 +63,13 @@
 }
 
 /*line heights*/
-.lineHeight75 {
-	line-height: .75em;
-}
-.lineHeight150 {
-	line-height: 1.5em;
-}
-.lineHeight180 {
-	line-height: 1.8em;
-}
-.lineHeightAuto {
-	line-height:inherit;
-}
+.lineHeight75 {line-height: .75em;}
+.lineHeight150 {line-height: 1.5em;}
+.lineHeight180 {line-height: 1.8em;}
+.lineHeightAuto {line-height:inherit;}
 
 /*casing*/
-.lowerCase {
-	text-transform:none !important;
-}
+.lowerCase {text-transform:none !important;}
 
 /*full width inside a container*/
 div.section_fullCaptura {
@@ -402,11 +381,12 @@ ul.purpleBulletStd li {
 /*01 Frosted FLakes*/
 .circleIcons {
 	margin: 5% 0;
+	padding-top: 5%;
 	text-align:center;
 }
 
 .circleIcons img{
-	padding-right:5%;
+	padding-right:2%;
 }
 
 
@@ -732,6 +712,12 @@ color:#373737 !important;
 		float:left;
 		max-width:100% !important;
 		width:100% !important;
+	}
+	
+	/*01 Frosted Flakes */
+	.circleIcons img {
+		margin: 2%;
+		padding:0;
 	}
 	
 	/*03 Poptarts */
