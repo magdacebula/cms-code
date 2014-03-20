@@ -203,7 +203,7 @@ div.section_fullCaptura {
 .quote-name {
 	display:block!important;
 	color: #5e5e5e;
-	margin: 20px 0 0 40px;
+	margin: 0 0 0 40px;
 	clear:both;
 }
 
@@ -633,7 +633,7 @@ h6.titleCompliments {
 /*Historia de Amor */
 .bulletList {
 	font-family: 'News Gothic', 'Arial Narrow' , 'Helvetica Narrow',sans-serif;
-	font-size:1.3em;
+	font-size:1.3em !important;
 }
 
 /*19 Lists */
