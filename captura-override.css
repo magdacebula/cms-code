@@ -399,10 +399,17 @@ ul.purpleBulletStd li {
 	line-height: 1.5em;
 }
 
+/*01 Frosted FLakes*/
+.circleIcons {
+	margin: 5% 0;
+	text-align:center;
+}
+
+
 /*02 Boxer*/
 .boxerQuote {
-		font-size:1.1em !important;
-	}
+	font-size:1.1em !important;
+}
 
 /* 03 Poptarts */
 ol.whiteNumber {
@@ -429,7 +436,6 @@ ol.whiteNumber li{
 
 
 /*06 Picky Eaters */
-
 #containerMain {
 	position:relative;
 	background:url(/content/dam/diasgrandiosos/articles/006_picky_eaters/Desktop/32-d-food.jpg)no-repeat;
