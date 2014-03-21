@@ -2,7 +2,6 @@
 /* CSS Document */
 
 /*Colors*/
-
 .white {color:#FFFFFF !important;}
 .dkGrey {color:#5e5e5e !important;}
 
@@ -21,7 +20,6 @@
 .purple100 {color:#7D3C9B !important;}
 .dkPurple {color:#67327A !important;}
 
-
 /*Font Size*/
 .size120 {font-size:1.2em;}
 .size140 {font-size:1.4em;}
@@ -30,16 +28,14 @@
 .size200 {font-size:2em;}
 .size240 {font-size:2.4em;}
 
-
 /*Font Family*/
 .fontBreeReg { font-family: 'bree_rgregular';}
 .fontBreeLight  { font-family: "Bree Light";}
 
-/*Alignment*/
+/*Text Alignment*/
 .centered {text-align:center;}
 .right {text-align:right;}
 .left {text-align:left;}
-
 
 /*Headers*/
 .capturaH1, .capturaH2, .capturaH3, .capturaH4, .capturaH5, .bodyCopy h6, .whiteCenterHeader {
@@ -58,7 +54,7 @@
 .whiteCenterHeader {
 	font-size:2.9em;
 	color:#fff;
-	text-align:center; 
+	text-align:center;
 	line-height:1.5em !important;
 }
 
@@ -115,6 +111,7 @@ div.section_fullCaptura {
 .bodyCopy .marginBtm20 {
 	margin-bottom:20%;
 }
+
 /*Column Containers for Full-Width text*/
 .bodyCopy .max1170 {
 	max-width:1170px;
@@ -166,19 +163,18 @@ div.section_fullCaptura {
 .colRightPadding {  
 	padding-left:50px;
 }
+
 /*Block Quotes*/
 .quote {
 	background: url(/content/dam/diasgrandiosos/global/quotation-marks/top_quote.png) top left no-repeat,
 	url(/content/dam/diasgrandiosos/global/quotation-marks/bottom_quote.png) bottom right no-repeat;
 }
-
 .quote p {
 	text-align:left !important;
 	padding-left: 40px;
 	padding-top: 40px;
 	padding-bottom: 30px;
 }
-
 .quote-name {
 	display:block!important;
 	color: #5e5e5e;
@@ -293,24 +289,23 @@ div.section_fullCaptura {
 	}
 }
 @media screen and (min-width: 1271px) and (max-width: 1440px) { /*for items that exceed the 1170 grid in width*/
-	.oneThirdFullWide, .oneThirdPaddedWide, .oneThird480 { 
-		margin-right:50px ;
-		margin-left:50px ;
+	.oneThirdFullWide, .oneThirdPaddedWide, .oneThird480 {
+		margin-right:50px;
+		margin-left:50px;
 	}
 }
 @media screen and (min-width: 601px) and (max-width: 1080px) {
-.bodyCopy ul, .bodyCopy ul li, .lineHeight75, .lineHeight150, .lineHeight180, .lineHeightAuto {
-	font-size: .95em !important;
-}
-.bodyCopy br {
-	display: block;
-	margin-top: 10px;
-	content: " ";
-	line-height: inherit;
-}
+	.bodyCopy ul, .bodyCopy ul li, .lineHeight75, .lineHeight150, .lineHeight180, .lineHeightAuto {
+		font-size: .95em !important;
+	}
+	.bodyCopy br {
+		display: block;
+		margin-top: 10px;
+		content: " ";
+		line-height: inherit;
+	}
 }
 /*Lists */
-
 ul.greenBullet, ul.blueBullet, ul.redBullet, ul.purpleBullet, ul.greenBulletStd, ul.blueBulletStd, ul.redBulletStd, ul.purpleBulletStd, ul.greenBulletMed {
 	list-style:none;
 	padding:0px;
@@ -324,28 +319,24 @@ ul.greenBullet li {
 	margin-bottom:35px;
 	line-height: 1.5em;
 }
-
 ul.greenBulletMed li {
 	background:url(/content/dam/diasgrandiosos/icons/green-bullet.png) 0px 10px no-repeat;
 	padding-left:35px;
 	margin-bottom:20px;
 	line-height: 1.5em;
 }
-
 ul.blueBullet li {
 	background:url(/content/dam/diasgrandiosos/icons/blue-bullet.png) 0px 10px no-repeat;
 	padding-left:35px;
 	margin-bottom:35px;
 	line-height: 1.5em;
 }
-
 ul.redBullet li {
 	background:url(/content/dam/diasgrandiosos/icons/red-bullet.png) 0px 10px no-repeat;
 	padding-left:35px;
 	margin-bottom:35px;
 	line-height: 1.5em;
 }
-
 ul.purpleBullet li {
 	background:url(/content/dam/diasgrandiosos/icons/purple-bullet.png) 0px 10px no-repeat;
 	padding-left:35px;
@@ -384,11 +375,9 @@ ul.purpleBulletStd li {
 	padding-top: 5%;
 	text-align:center;
 }
-
 .circleIcons img{
 	padding-right:2%;
 }
-
 
 /*02 Boxer*/
 .boxerQuote {
@@ -400,13 +389,11 @@ ol.whiteNumber {
 	color:#fff;
 	font-weight:normal;
 }
-
 ol.whiteNumber li{
 	color:#fff;
 	margin-bottom:10px;
 	line-height: 1.5em;
 }
-
 .craft-circle, .craft-circle-sandwich, .craft-circle-libreta, .craft-circle-unas {
 	 display:inline-block;
 	 float:left;
@@ -418,7 +405,6 @@ ol.whiteNumber li{
 	margin-top: -30%;
 }
 
-
 /*06 Picky Eaters*/
 #containerMain {
 	position:relative;
@@ -426,30 +412,27 @@ ol.whiteNumber li{
 	background-size:100%;
 	margin-bottom: -5px;
 }
-
 /*06 Transparent Background*/
 .circle-bkgrnd {
     background:rgba(255,255,255,0.8);
 	display:inline-block;
 }
-
 /*06 Top Block*/
 #containerOne {
-    position: relative;
-    z-index: 1;
+	position: relative;
+	z-index: 1;
 }
     #containerOne:after
     {
-        content: '';
-        clear: both;
-        display: block;
+		content: '';
+		clear: both;
+		display: block;
     }
 	display:inline;
 	position:relative;
 	width:100%;
 	height:100%;
 }
-
 div.mainBlockOne {
 	margin:0 0 100px 0;
 	padding:0;
@@ -458,29 +441,26 @@ div.mainBlockOne {
 	width:100%;
 	display:block;
 }
-
 .circleWrapperLeft{
 	width:45%;
 	padding: 20% 40px 0;
 	margin-left:40px;
 }
-
 /*06 Bottom Block*/
 #containerTwo {
     position: relative;
     z-index: 1;
-}
-    #containerTwo:after
-    {
-        content: '';
-        clear: both;
-        display: block;
+	}
+#containerTwo:after
+	{
+		content: '';
+		clear: both;
+		display: block;
     }
 	position:relative;
 	width:100%;
 	height:100%;
 }
-
 div.mainBlockTwo {
 	margin:0 100px 0 0;
 	max-width:100%;
@@ -488,14 +468,12 @@ div.mainBlockTwo {
 	width:100%;
 	display:block;
 }
-
 .circleWrapperRight{
 	width:45%;
 	float:right;
 	padding:500px 40px 50px;
 	margin-right:40px;
 }
-
 /*06 Common*/
 .circle-block-left{
 	width:100%;
@@ -504,7 +482,6 @@ div.mainBlockTwo {
 	margin-left:-40px;
 	margin-top:-20px;
 }
-
 .circle-block-right{
 	width:100%;
 	display:inline-block;
@@ -512,36 +489,30 @@ div.mainBlockTwo {
 	margin-right: -40px;
 	margin-top: -40px;
 }
-
 .circle-block-left-image{
 	max-width:50%;
 	float:left;
 	display:block;
 }
-
 .circle-block-right-image{
 	max-width:50%;
 	float:right;
 	display:block;
 }
-
 .circle-block-left-image img {
 	width:100%;
 	display:block;
 }
-
 .circle-block-right-image img {
  	width:100%;
  	display:block;
 }
-
 .text-left {
 	padding: 12% 0px 15% 20px;
 	float:left;
 	display:block;
 	max-width:45%;
 }
-
 .text-right {
 	padding: 12% 20px 15% 0;
 	float:right;
@@ -549,12 +520,10 @@ div.mainBlockTwo {
 	display:block;
 	max-width:45%;
 }
-
 .text-left h3, .text-right h3 {
 	font-family: "Bree Light";
 	font-size: 1.5em;
 }
-
 /*06 Used on Second Block - Bottom Circle*/
 .marginBtm{
 	margin-bottom:-20px;
@@ -566,7 +535,6 @@ h6.titleCompliments {
 	color:#fff;
 	text-shadow: 0 3px 5px rgba(0,0,0,0.2);
 }
-
 .pWidth {
 	max-width:70%;
 }
@@ -583,7 +551,7 @@ h6.titleCompliments {
 
 /*14 Millenials*/
 .halfPage14 {
-	background:#fff; 
+	background:#fff;
 	width:100%;
 	padding:40px 10%;
 }
@@ -630,7 +598,6 @@ h6.titleCompliments {
 	padding: 0 0 0 35px !important;
 	font-size:.75em;
 }
-	
 .article-tip .article-tip-content {
 	padding: 30px 35% 20px 95px !important;
 }
@@ -640,12 +607,10 @@ h6.titleCompliments {
 	float:left;
 	width:50%;
 }
-
 .left-block-quote p {
 	font-size: 2.4em;
 	text-align:left;
 }
-
 .right-copy-block {
 	float:left;
 	max-width:50%;
@@ -659,7 +624,6 @@ ul.purpleBullet25 li {
 	line-height: 1.5em;
 }
 
-
 /*27 Spice Up Cereal*/
 .starList {
 	background:url(/content/dam/diasgrandiosos/icons/star-bullet.png) left 4px no-repeat; 
@@ -669,13 +633,12 @@ ul.purpleBullet25 li {
 
 
 /*Start of Media Queries For specific pages*/
-
 @media screen and (max-width: 600px) {
 
 	.starList {
 		padding-right: 30px;
   }
-  	.halfPage14 {
+	.halfPage14 {
 		padding:30px 8%;
 	}	
 	.halfPage14 p{
@@ -695,18 +658,15 @@ ul.purpleBullet25 li {
 	}
 	h6.titleCompliments {
 		font-size:1.6em !important;
-	}
-	
+	}	
 	.left-block-quote {
 		float:left;
 		width:100% !important;
 	}
-
 	.left-block-quote p {
 		font-size: 2.4em;
 		text-align:left;
 	}
-
 	.right-copy-block {
 		float:left;
 		max-width:100% !important;
@@ -722,12 +682,10 @@ ul.purpleBullet25 li {
 	/*03 Pop Tarts */
 	.craft-circle {
 		padding-bottom:10% !important;
-	}
-	
+	}	
 	.craft-circle-sandwich, .craft-circle-libreta, .craft-circle-unas {
 		padding-bottom:0 !important;
-	}
-	
+	}	
 	.circleImg {
 		position: relative;
 		z-index: 1;
@@ -743,43 +701,43 @@ ul.purpleBullet25 li {
 	#containerTwo {
 		padding-bottom: 20px;
 	}
-		
 	.circleWrapperLeft{
 		width:auto;
 		float:left;
 		margin: 0 auto;
 		padding: 90% 10px 0;
 	}
-	
 	.circleWrapperRight{
 		width:auto;
 		float:left;
 		padding: 170% 10px 0;
 		margin: 0 auto;
 	}
-	
+	.circle-block-left, .circle-block-right {
+		width:100%;
+		display:inline-block;
+		float:left;
+		margin:0;
+		padding-top: 10%;
+	}
 	.circle-block-left-image {
 		width:100%;
 		max-width:100%!important;
 	}
-	
 	.circle-block-right-image {
 		width:100%;
 		max-width:100%!important;
 	}
-	
 	.circle-block-left-image img {
 		width: 90%;
 		display: block;
 		margin: 20px auto 0;
 	}
-	
 	.circle-block-right-image img {
 		width: 90%;
 		display: block;
 		margin: 20px auto 0;
 	}
-	
 	.text-left, .text-right {
 		width: 100%;
 		max-width: 100%;
@@ -790,25 +748,14 @@ ul.purpleBullet25 li {
 		max-width: auto;
 		margin: 0 auto;
 	}
-	
 	.text-left h3, .text-right h3 {
 		padding: 0 5%;
 	}
-	
-	.circle-block-left, .circle-block-right {
-		width:100%;
-		display:inline-block;
-		float:left;
-		margin:0;
-		padding-top: 10%;
-	}
-	
 	.circle-bkgrnd {
 		max-width:100%;
 	}
 	
-	/* 09 Paragraph Percent */
-	
+	/* 09 Paragraph Percent */	
 	.pWidth {
 		max-width:100%;
 	}
@@ -835,11 +782,12 @@ ul.purpleBullet25 li {
 	}
 	
 }
+
 @media screen and (min-width: 1170px) and (max-width: 1400px) {
 	.halfPage14 {
 		padding:30px 8%;
 		margin: 0 auto;
-	}	
+	}
 	.halfPage14 p{
 		margin-bottom: 30px;
 	}
