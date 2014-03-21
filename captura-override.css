@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
 
-/*colors*/
+/*Colors*/
 
 .white {color:#FFFFFF !important;}
 .dkGrey {color:#5e5e5e !important;}
@@ -22,7 +22,7 @@
 .dkPurple {color:#67327A !important;}
 
 
-/*font size*/
+/*Font Size*/
 .size120 {font-size:1.2em;}
 .size140 {font-size:1.4em;}
 .size160 {font-size:1.6em;}
@@ -31,17 +31,17 @@
 .size240 {font-size:2.4em;}
 
 
-/*font family*/
+/*Font Family*/
 .fontBreeReg { font-family: 'bree_rgregular';}
 .fontBreeLight  { font-family: "Bree Light";}
 
-/*alignment*/
+/*Alignment*/
 .centered {text-align:center;}
 .right {text-align:right;}
 .left {text-align:left;}
 
 
-/*headers*/
+/*Headers*/
 .capturaH1, .capturaH2, .capturaH3, .capturaH4, .capturaH5, .bodyCopy h6, .whiteCenterHeader {
 	font-family: 'News Gothic', 'Arial Narrow' , 'Helvetica Narrow',sans-serif;
 	text-transform: uppercase;
@@ -62,16 +62,16 @@
 	line-height:1.5em !important;
 }
 
-/*line heights*/
+/*Line Heights*/
 .lineHeight75 {line-height: .75em;}
 .lineHeight150 {line-height: 1.5em;}
 .lineHeight180 {line-height: 1.8em;}
 .lineHeightAuto {line-height:inherit;}
 
-/*casing*/
+/*Casing*/
 .lowerCase {text-transform:none !important;}
 
-/*full width inside a container*/
+/*Full Width inside a Container*/
 div.section_fullCaptura {
 	margin: 0px auto;
 	min-width: 100%;
@@ -81,7 +81,7 @@ div.section_fullCaptura {
 	zoom: 1;
 }
 
-/*top and bottom margins*/
+/*Top and Bottom Margins*/
 .bodyCopy .marginTop0 { /*choose your margin size*/
 	margin-top:0%;
 }
@@ -115,7 +115,7 @@ div.section_fullCaptura {
 .bodyCopy .marginBtm20 {
 	margin-bottom:20%;
 }
-/*column containers for full-width text*/
+/*Column Containers for Full-Width text*/
 .bodyCopy .max1170 {
 	max-width:1170px;
 	margin: auto;
@@ -154,10 +154,10 @@ div.section_fullCaptura {
 	margin-right: auto;
 }
 .bodyCopy .fixedColLeft { /*add to fixed width columns after setting left/right overrides to 0--excluding 1 col 100%*/
-		padding-right: 50px;
+	padding-right: 50px;
 }
 .bodyCopy .fixedColRight { /*add to fixed width columns after setting left/right overrides to 0--excluding 1 col 100%*/
-		padding-left: 50px;
+	padding-left: 50px;
 }
 /*if adjacent image goes to edge add this padding*/
 .colLeftPadding {
@@ -166,10 +166,10 @@ div.section_fullCaptura {
 .colRightPadding {  
 	padding-left:50px;
 }
-/*block quotes not flattened in an image*/
+/*Block Quotes*/
 .quote {
-		background: url(/content/dam/diasgrandiosos/global/quotation-marks/top_quote.png) top left no-repeat,
-		url(/content/dam/diasgrandiosos/global/quotation-marks/bottom_quote.png) bottom right no-repeat;
+	background: url(/content/dam/diasgrandiosos/global/quotation-marks/top_quote.png) top left no-repeat,
+	url(/content/dam/diasgrandiosos/global/quotation-marks/bottom_quote.png) bottom right no-repeat;
 }
 
 .quote p {
@@ -210,12 +210,12 @@ div.section_fullCaptura {
 		padding-right:0px;
 	}
 	.colRightPadding {
-	   padding-left:0px;
+		padding-left:0px;
 	}
 	.bodyCopy .fixedColLeft, .bodyCopy .fixedColRight {
-		  margin-left:20px;
-		  margin-right:20px;
-		  padding:0px;
+		margin-left:20px;
+		margin-right:20px;
+		padding:0px;
 	}
 	.quote p {
 		padding:30px 0;
@@ -497,7 +497,6 @@ div.mainBlockTwo {
 }
 
 /*06 Common*/
-
 .circle-block-left{
 	width:100%;
 	display:inline-block;
@@ -556,13 +555,12 @@ div.mainBlockTwo {
 	font-size: 1.5em;
 }
 
-/*06 used on Second Block - Bottom Circle*/
+/*06 Used on Second Block - Bottom Circle*/
 .marginBtm{
 	margin-bottom:-20px;
 }
 
 /*09 Compliments*/
-
 h6.titleCompliments {
 	text-align:center;
 	color:#fff;
@@ -573,7 +571,6 @@ h6.titleCompliments {
 	max-width:70%;
 }
 
-
 /*12 Copy Blocks*/
 .marginLT10 {
 	margin-left:10%;
@@ -583,7 +580,6 @@ h6.titleCompliments {
 	margin-right:10%;
 	margin-top:10%;
 }
-
 
 /*14 Millenials*/
 .halfPage14 {
@@ -602,7 +598,7 @@ h6.titleCompliments {
 	max-width: 437px;
 }
 
-/*15 mom eating healthy*/
+/*15 Mom Eating Healthy*/
 .circleContainer {
 	text-align: center;
 	float: left;
@@ -723,7 +719,7 @@ ul.purpleBullet25 li {
 		padding:0;
 	}
 	
-	/*03 Poptarts */
+	/*03 Pop Tarts */
 	.craft-circle {
 		padding-bottom:10% !important;
 	}
