@@ -570,6 +570,10 @@ h6.titleCompliments {
 	text-shadow: 0 3px 5px rgba(0,0,0,0.2);
 }
 
+.pWidth {
+	max-width:70%;
+}
+
 
 /* 12 Copy Blocks */
 .marginLT10 {
@@ -805,6 +809,12 @@ color:#373737 !important;
 	}
 	
 	.circle-bkgrnd {
+		max-width:100%;
+	}
+	
+	/* 09 Paragraph Percent */
+	
+	.pWidth {
 		max-width:100%;
 	}
 	
