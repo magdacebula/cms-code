@@ -216,14 +216,12 @@ div.section_fullCaptura {
 	.quote p {
 		padding:30px 0;
 	}
-	
 	.quote-name {
 		display:block!important;
 		color: #5e5e5e;
 		margin: 0px;
 		clear:both;
 	}
-		
 	.header-p {
 		min-width: 100% !important;
 		max-width: 100% !important;
