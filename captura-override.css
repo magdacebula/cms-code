@@ -636,6 +636,7 @@ a.articleTitle {
 	min-height:75px; 
 	color:#373737 !important;
 	text-align: center;
+	max-width:350px;
 }
 
 /*Start of Media Queries For specific pages*/
