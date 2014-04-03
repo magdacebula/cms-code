@@ -629,10 +629,21 @@ ul.purpleBullet25 li {
 	color:#373737 !important;
 }
 
+/*Section Landing pages*/
+a.articleTitle {
+	margin-top:10px;
+	display: block;
+	min-height:75px; 
+	color:#373737 !important;
+	text-align: center;
+}
 
 /*Start of Media Queries For specific pages*/
 @media screen and (max-width: 600px) {
-
+	a.articleTitle {
+		min-height: none; 
+	}
+	
 	.starList {
 		padding-right: 30px;
   }
