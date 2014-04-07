@@ -191,7 +191,7 @@ div.section_fullCaptura {
 	padding: 0;
 	position: relative;
 	text-align: left;
-	max-width: 42%;
+	max-width: 43%;
 }
 
 @media screen and (max-width: 600px) {
@@ -226,7 +226,7 @@ div.section_fullCaptura {
 		min-width: 100% !important;
 		max-width: 100% !important;
 		float: left !important;
-		margin: 0 !important;
+		margin: 0 0 5% 0 !important;
 	}
 	.no-padding {
 		padding: 0 5% !important;
