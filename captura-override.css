@@ -635,6 +635,10 @@ ul.purpleBullet25 li {
 	padding:0 5px; 
 }
 
+.captionCopy.right {
+	text-align:right;
+}
+
 /*Section Landing pages*/
 a.articleTitle {
 	margin-top:10px;
